@@ -1,9 +1,9 @@
 package manager;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 
 public class HelperBase {
@@ -15,14 +15,15 @@ public class HelperBase {
         }
 
 
-        public void type(By locator, String text) {
+       public void type(By locator, String text) {
             WebElement element = wd.findElement(locator);
-            element.click();
-            element.clear();
-            if (text != null) {
-                element.sendKeys(text);
-            }
+           element.click();
+           element.clear();
+          if (text != null) {
+               element.sendKeys(text);
+           }
         }
+
 
         public void click(By locator){
             WebElement element = wd.findElement(locator);

@@ -49,4 +49,8 @@ public class HelperContact extends HelperBase{
         }
         return false;
     }
+
+    public boolean isAddLinkActive() {
+        return isElementPresent(By.xpath("//a[@href='/add' and contains(@class,'active')]"));
+    }
 }
