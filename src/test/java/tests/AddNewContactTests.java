@@ -9,8 +9,11 @@ public class AddNewContactTests extends TestBase {
 
     @BeforeClass
     public void preCondition() {
+
+        logger.info("test data---> email: lolik@gmail.com & password: Lolik123!");
         if (!app.getHelperUser().isLogged())
-            app.getHelperUser().login(new User().setEmail("margo@gmail.com").withPassword("Mmar123456$"));
+            app.getHelperUser().login(new User().setEmail("lolik@gmail.com").withPassword("Lolik123!"));
+        logger.info("User logged in successfully");
     }
 
     @Test
@@ -23,14 +26,21 @@ public class AddNewContactTests extends TestBase {
                 .phone("34343434" + i)
                 .email("molly" + i + "@gmail.com")
                 .address("Haifa")
-                .description("Friend")
+                .description("all fields")
                 .build();
+
+        logger.info("Test data --> name: Tony, lastName:Molly, phone: 34343434"+ i+"email: molly" + i +"@gmail.com," +
+                " address: Haifa, description: all fields");
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+        //app.getHelperContact().pause(10000);
+        app.getHelperContact().getScreen("src/test/screenshots/screen- "+i+".png");
         app.getHelperContact().saveContact();
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
+        logger.info("Assert check is add contact by name");
         Assert.assertTrue(app.getHelperContact().isContactAddByPhone(contact.getPhone()));
+        logger.info("Assert check is add contact by phone");
 
     }
 
@@ -39,18 +49,24 @@ public class AddNewContactTests extends TestBase {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
         Contact contact = Contact.builder()
-                .name("Tony"+i)
+                .name("TonyReq"+i)
                 .lastName("Molly")
                 .phone("34343434" + i)
                 .email("molly" + i + "@gmail.com")
                 .address("Haifa")
                 .build();
 
+        logger.info("Test data --> name: Tony, lastName:Molly, phone: 34343434"+ i+"email: molly" + i +"@gmail.com," +
+                " address: Haifa");
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+       // app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
+        logger.info("Assert check is add contact by name");
         Assert.assertTrue(app.getHelperContact().isContactAddByPhone(contact.getPhone()));
+        logger.info("Assert check is add contact by phone");
+
 
     }
     @Test
@@ -60,16 +76,21 @@ public class AddNewContactTests extends TestBase {
         Contact contact = Contact.builder()
                 .name("")
                 .lastName("Molly")
-                .phone("34343434"+i)
+                .phone("343434342323")
                 .email("molly@gmail.com")
                 .address("Haifa")
+                .description("empty name")
                 .build();
-
+        logger.info("Test data --> name: , lastName:Molly, phone: 343434342323,email: molly@gmail.com," +
+                " address: Haifa, description: empty name");
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+       // app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
-        Assert.assertTrue(app.getHelperContact().isAddLinkActive());
+       // Assert.assertTrue(app.getHelperContact().isAddLinkActive());
+        Assert.assertTrue(app.getHelperContact().isAddContactPageStillDisplayed());
+        logger.info("Assert check Add button is active");
     }
 
     @Test
@@ -79,36 +100,48 @@ public class AddNewContactTests extends TestBase {
         Contact contact = Contact.builder()
                 .name("Tony")
                 .lastName("")
-                .phone("34343434" + i)
+                .phone("343434342323")
                 .email("molly@gmail.com")
                 .address("Haifa")
+                .description("empty last name")
                 .build();
+
+        logger.info("Test data --> name: Tony , lastName:, phone: 343434342323,email: molly@gmail.com," +
+                " address: Haifa, description: empty last name");
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+        //app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isAddLinkActive());
-
+        logger.info("Assert check Add button is active");
     }
 
-    @Test (description = "bug" , enabled = false)
-    public void addNewContactEmptyEmail() {
+    @Test
+    public void addNewContactWrongEmail() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
         Contact contact = Contact.builder()
-                .name("Tony"+i)
+                .name("Tony")
                 .lastName("Molly")
-                .phone("34343434" + i)
-                .email("")
+                .phone("343434342323")
+                .email("mollygmail.com")
                 .address("Haifa")
+                .description("wrong email")
                 .build();
-
+        logger.info("Test data --> name: Tony, lastName:Molly, phone: 343434342323, email: mollygmail.com," +
+                " address: Haifa, description: wrong email");
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+        //app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isAddLinkActive());
+        logger.info("Assert check Add button is active");
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Email not valid"));
+        logger.info("Assert check is alert present with error test 'Email not valid' ");
+
     }
 
     @Test
@@ -116,18 +149,24 @@ public class AddNewContactTests extends TestBase {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
         Contact contact = Contact.builder()
-                .name("Tony"+i)
+                .name("Tony")
                 .lastName("Molly")
                 .phone("")
-                .email("molly" + i + "@gmail.com")
+                .email("molly@gmail.com")
                 .address("Haifa")
+                .description("empty phone")
                 .build();
-
+        logger.info("Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com," +
+                " address: Haifa, description: empty phone");
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+        //app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid"));
+        logger.info("Assert check is alert present with error test 'Phone not valid' ");
+        Assert.assertTrue(app.getHelperContact().isAddContactPageStillDisplayed());
+        logger.info("Assert check Add button is active");
 
     }
 
@@ -136,18 +175,25 @@ public class AddNewContactTests extends TestBase {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
         Contact contact = Contact.builder()
-                .name("Tony"+i)
+                .name("Tony")
                 .lastName("Molly")
-                .phone("34343434" + i)
-                .email("molly" + i + "@gmail.com")
+                .phone("343434342323")
+                .email("molly@gmail.com")
                 .address("")
+                .description("empty address")
                 .build();
+
+        logger.info("Test data --> name: Tony, lastName:Molly, phone: 343434342323, email: molly@gmail.com," +
+                " address: , description: empty address");
+
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
+       // app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isAddLinkActive());
+        logger.info("Assert check Add button is active");
     }
 
 }
