@@ -28,4 +28,3 @@ public class RemoveContactsTests extends TestBase {
         Assert.assertTrue(app.getHelperContact().isNoContactsHereDisplayed());
     }
 }
-

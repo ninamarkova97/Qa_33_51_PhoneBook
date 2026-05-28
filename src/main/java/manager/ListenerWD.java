@@ -13,13 +13,39 @@ public class ListenerWD implements WebDriverListener {
     @Override
     public void beforeFindElement(WebDriver driver, By locator) {
         WebDriverListener.super.beforeFindElement(driver, locator);
-        logger.info("Before find element -->" + locator);
+        logger.info("Before find element-->" + locator);
     }
 
     @Override
     public void afterFindElement(WebDriver driver, By locator, WebElement result) {
         WebDriverListener.super.afterFindElement(driver, locator, result);
-        logger.info("After find element -->" + locator);
-        logger.info("Location of element -->" +result.getTagName());
+        logger.info("After find element-->" + locator);
+        logger.info("Location of element-->" + result.getTagName());
+    }
+
+    @Override
+    public void beforeClick(WebElement element) {
+        WebDriverListener.super.beforeClick(element);
+        logger.info("Before click element-->"+ element.getTagName()
+        +"text -->" + element.getText());
+    }
+
+    @Override
+    public void afterClick(WebElement element) {
+        WebDriverListener.super.afterClick(element);
+        logger.info("After click element-->"+ element.getTagName());
+    }
+
+    @Override
+    public void beforeSendKeys(WebElement element, CharSequence... keysToSend) {
+        WebDriverListener.super.beforeSendKeys(element, keysToSend);
+        logger.info("sendKeys -->" + element.getText());
+        logger.info("sendKeys -->" + element.getTagName());
+    }
+
+    @Override
+    public void beforeTo(WebDriver.Navigation navigation, String url) {
+        WebDriverListener.super.beforeTo(navigation, url);
+        logger.info("Navigate to -->"+url);
     }
 }

@@ -60,7 +60,7 @@ public class AddNewContactTests extends TestBase {
                 " address: Haifa");
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
-       // app.getHelperContact().pause(10000);
+        // app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
         logger.info("Assert check is add contact by name");
@@ -85,10 +85,10 @@ public class AddNewContactTests extends TestBase {
                 " address: Haifa, description: empty name");
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
-       // app.getHelperContact().pause(10000);
+        // app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
-       // Assert.assertTrue(app.getHelperContact().isAddLinkActive());
+        // Assert.assertTrue(app.getHelperContact().isAddLinkActive());
         Assert.assertTrue(app.getHelperContact().isAddContactPageStillDisplayed());
         logger.info("Assert check Add button is active");
     }
@@ -189,7 +189,7 @@ public class AddNewContactTests extends TestBase {
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
-       // app.getHelperContact().pause(10000);
+        // app.getHelperContact().pause(10000);
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isAddLinkActive());

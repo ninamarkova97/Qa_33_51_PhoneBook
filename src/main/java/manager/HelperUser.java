@@ -24,6 +24,7 @@ public class HelperUser extends HelperBase{
 //        WebElement loginTab = wd.findElement(By.xpath("//a[text()='LOGIN']"));
 //        loginTab.click();
         click(By.cssSelector("a[href='/login']"));
+        logger.info("Open form by ckick on button with locator a[href='/login']");
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
@@ -32,6 +33,8 @@ public class HelperUser extends HelperBase{
 //        emailInput.clear();
 //        emailInput.sendKeys(email);
         type(By.name("email"),email);
+
+        logger.info("type in input with locator By.name(\"email\") ");
 
 
 //        WebElement passwordInput = wd.findElement(By.xpath("//input[@placeholder='Password']"));

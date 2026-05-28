@@ -10,8 +10,7 @@ import java.util.Random;
 import static tests.TestBase.app;
 
 public class RegistrationTests extends TestBase {
-    Random random = new Random();
-    int i = random.nextInt(1000)+1000;
+
 
 
     @BeforeMethod
@@ -75,8 +74,8 @@ public class RegistrationTests extends TestBase {
 
     @Test
     public void wrongPasswordRegistration(){
-        logger.info("Test data --> email:'mert"+i+"@gmail.com & password: Mert123456");
-        User user = new User().setEmail("mert"+i+"@gmail.com").withPassword("Mert123456");
+        logger.info("Test data --> email:'mert@gmail.com & password: Mert123456");
+        User user = new User().setEmail("mert@gmail.com").withPassword("Mert123456");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
