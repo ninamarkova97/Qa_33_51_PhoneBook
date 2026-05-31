@@ -1,4 +1,6 @@
 package tests;
+import manager.DataProviderContact;
+import manager.DataProviderUser;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -16,18 +18,9 @@ public class AddNewContactTests extends TestBase {
         logger.info("User logged in successfully");
     }
 
-    @Test
-    public void addNewContactSuccessAllFields() {
+    @Test( dataProvider = "contactSuccess", dataProviderClass = DataProviderContact.class)
+    public void addNewContactSuccessAllFields(Contact contact) {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-
-        Contact contact = Contact.builder()
-                .name("Tony" + i)
-                .lastName("Molly")
-                .phone("34343434" + i)
-                .email("molly" + i + "@gmail.com")
-                .address("Haifa")
-                .description("all fields")
-                .build();
 
         logger.info("Test data --> name: Tony, lastName:Molly, phone: 34343434"+ i+"email: molly" + i +"@gmail.com," +
                 " address: Haifa, description: all fields");
@@ -144,18 +137,10 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test
-    public void addNewContactEmptyPhone() {
+    @Test(dataProvider = "contactWrongPhone", dataProviderClass = DataProviderContact.class)
+    public void addNewContactWrongPhone(Contact contact) {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
-        Contact contact = Contact.builder()
-                .name("Tony")
-                .lastName("Molly")
-                .phone("")
-                .email("molly@gmail.com")
-                .address("Haifa")
-                .description("empty phone")
-                .build();
         logger.info("Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com," +
                 " address: Haifa, description: empty phone");
         app.getHelperContact().openContactForm();

@@ -1,11 +1,18 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.WebDriverListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Random;
 
 public class ListenerWD implements WebDriverListener {
     Logger logger = LoggerFactory.getLogger(ListenerWD.class);
@@ -47,5 +54,32 @@ public class ListenerWD implements WebDriverListener {
     public void beforeTo(WebDriver.Navigation navigation, String url) {
         WebDriverListener.super.beforeTo(navigation, url);
         logger.info("Navigate to -->"+url);
+    }
+
+    @Override
+    public void onError(Object target, Method method, Object[] args, InvocationTargetException e) {
+        WebDriverListener.super.onError(target, method, args, e);
+        logger.info("Huston, we have a problem!");
+        logger.info("Failed method:" + method.getName());
+        logger.info("**********************");
+        logger.info("Arguments:"+ Arrays.toString(args));
+        logger.info("**********************");
+        logger.info("Exception:" + e.getTargetException().getClass().getSimpleName());
+        logger.info("**********************");
+        logger.info("Message" + e.getTargetException().getMessage());
+        logger.info("**********************");
+        int i = new Random().nextInt(1000)+1000;
+        String link = "src/test/screenshots/screen_"+i+".png";
+        logger.info("Screen with error is --->"+link);
+
+        WebDriver wd = (ChromeDriver)target;
+        TakesScreenshot takesScreenshot = (TakesScreenshot) wd;
+        File tmp = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(tmp, new File(link));
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+
     }
 }
