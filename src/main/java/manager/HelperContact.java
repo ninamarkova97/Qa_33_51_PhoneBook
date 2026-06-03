@@ -113,4 +113,5 @@ public class HelperContact extends HelperBase {
         saveContact();
         pause(500);
     }
+
 }

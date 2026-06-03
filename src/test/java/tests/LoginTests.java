@@ -72,6 +72,15 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isLogged());
         logger.info("Assert check is element button 'Sign out' present");
     }
+    @Test(dataProvider = "loginFile",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelDPF(User user) {
+        logger.info("Test data---> " + user.toString());
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Assert check is element button 'Sign out' present");
+    }
 
 
 

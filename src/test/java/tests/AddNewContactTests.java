@@ -22,8 +22,8 @@ public class AddNewContactTests extends TestBase {
     public void addNewContactSuccessAllFields(Contact contact) {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
-        logger.info("Test data --> name: Tony, lastName:Molly, phone: 34343434"+ i+"email: molly" + i +"@gmail.com," +
-                " address: Haifa, description: all fields");
+       // logger.info("Test data --> name: Tony, lastName:Molly, phone: 34343434"+ i+"email: molly" + i +"@gmail.com," +
+               // " address: Haifa, description: all fields");
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
@@ -36,6 +36,19 @@ public class AddNewContactTests extends TestBase {
         logger.info("Assert check is add contact by phone");
 
     }
+    @Test(dataProvider = "contactCSV",dataProviderClass = DataProviderContact.class)
+    public void addNewContactSuccessAllFieldsCSV(Contact contact) {
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        //app.getHelperContact().pause(10000);
+        app.getHelperContact().getScreen("src/test/screenshots/screen -"+i+".png");
+        app.getHelperContact().saveContact();
+        Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
+        Assert.assertTrue(app.getHelperContact().isContactAddByPhone(contact.getPhone()));
+    }
+
 
     @Test
     public void addNewContactSuccessRequiredFields() {
