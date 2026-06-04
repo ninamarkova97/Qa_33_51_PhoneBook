@@ -28,3 +28,7 @@ dependencies {
 test {
     useTestNG()
 }
+
+tasks.register('qa', Test){
+    useTestNG()
+}
