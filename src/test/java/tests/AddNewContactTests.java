@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class AddNewContactTests extends TestBase {
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition() {
 
         logger.info("test data---> email: lolik@gmail.com & password: Lolik123!");
@@ -50,7 +50,7 @@ public class AddNewContactTests extends TestBase {
     }
 
 
-    @Test
+    @Test(groups ={"smoke", "regress","retest"})
     public void addNewContactSuccessRequiredFields() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 

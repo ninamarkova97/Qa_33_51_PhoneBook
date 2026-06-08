@@ -13,7 +13,7 @@ public class RegistrationTests extends TestBase {
 
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         //If button Sign Out present --->logout
         if (app.getHelperUser().isLogged()) {
@@ -44,7 +44,7 @@ public class RegistrationTests extends TestBase {
     }
 
 
-    @Test (description = "Bug report #5648") //enabled = false)
+    @Test (description = "Bug report #5648", groups = {"smoke"}) //enabled = false)
     public void wrongEmailRegistration(){
         logger.info("Test data --> email:'mertgmail.com & password: Mert123456!");
         User user = new User().setEmail("mertgmail.com").withPassword("Mert123456!");

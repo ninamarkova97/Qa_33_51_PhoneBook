@@ -2,6 +2,9 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 import org.slf4j.Logger;
@@ -14,10 +17,25 @@ public class ApplicationManager {
     WebDriver wd;
     HelperUser helperUser;
     HelperContact helperContact;
+    String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     public void init() {
+
+        if(browser.equals(Browser.CHROME.browserName())){
+            logger.info("All tests runs in Chrome browser");
+        } else if (browser.equals(Browser.EDGE.browserName())){
+            wd = new EdgeDriver();
+            logger.info("All tests runs in Edge browser");
+        }else if (browser.equals(Browser.FIREFOX.browserName())){
+            wd = new FirefoxDriver();
+            logger.info("All tests runs in FireFox browser");}
+
         wd = new ChromeDriver();
         logger.info("All tests runs in Chrome Browser");
         wd.manage().window().maximize();

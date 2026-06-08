@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 public class RemoveContactsTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged())
             app.getHelperUser().login(new User().setEmail("lolik@gmail.com").withPassword("Lolik123!"));
         app.getHelperContact().provideContacts(); //if list of contacts <3 --> add 3 contacts
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void removeFirstContact() {
         //Assert size contact list less by one
         Assert.assertEquals(app.getHelperContact().removeOneContact(), 1);
