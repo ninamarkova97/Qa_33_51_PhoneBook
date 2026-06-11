@@ -73,4 +73,14 @@ public class HelperBase {
         return res;
 
     }
+    public void clickWait(WebElement element) {
+        try {
+            new WebDriverWait(wd, Duration.ofSeconds(5))
+                    .until(ExpectedConditions
+                            .elementToBeClickable(element)).click();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("created exception");
+        }
+    }
 }

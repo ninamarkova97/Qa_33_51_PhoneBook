@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-import static tests.TestBase.app;
 
 public class RegistrationTests extends TestBase {
 
