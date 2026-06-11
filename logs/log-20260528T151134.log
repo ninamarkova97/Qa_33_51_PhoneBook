@@ -1,0 +1,243 @@
+15:11:35.147 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+15:11:35.355 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+15:11:35.863 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+15:11:35.881 INFO  tests.TestBase -- Name of method (test)-->loginSuccess
+15:11:40.935 INFO  tests.TestBase -- Start test with name 'loginSuccess'
+15:11:40.935 INFO  tests.TestBase -- Test data --> email:'lolik@gmail.com & password: Lolik123!
+15:11:40.936 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:11:40.955 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:11:40.962 INFO  manager.ListenerWD -- Location of element-->a
+15:11:40.974 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:11:41.013 INFO  manager.ListenerWD -- After click element-->a
+15:11:41.013 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:11:41.013 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:11:41.028 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:11:41.033 INFO  manager.ListenerWD -- Location of element-->input
+15:11:41.040 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:11:41.071 INFO  manager.ListenerWD -- After click element-->input
+15:11:41.091 INFO  manager.ListenerWD -- sendKeys -->
+15:11:41.093 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:41.112 INFO  manager.ListenerWD -- sendKeys -->
+15:11:41.117 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:41.132 INFO  manager.ListenerWD -- sendKeys -->
+15:11:41.138 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:41.153 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+15:11:41.153 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Passworrrrrd']
+15:11:46.210 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:11:46.210 INFO  manager.ListenerWD -- Failed method:findElement
+15:11:46.210 INFO  manager.ListenerWD -- **********************
+15:11:46.210 INFO  manager.ListenerWD -- Arguments:[By.xpath: //input[@placeholder='Passworrrrrd']]
+15:11:46.211 INFO  manager.ListenerWD -- **********************
+15:11:46.211 INFO  manager.ListenerWD -- Exception:NoSuchElementException
+15:11:46.211 INFO  manager.ListenerWD -- **********************
+15:11:46.212 INFO  manager.ListenerWD -- Messageno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Passworrrrrd']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e536a26090741b215967c8e3c8c3f03, findElement {using=xpath, value=//input[@placeholder='Passworrrrrd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51121}, goog:processID: 42912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e536a26090741b215967c8e3c8c3f03
+15:11:46.212 INFO  manager.ListenerWD -- **********************
+15:11:46.213 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1183.png
+15:11:46.436 INFO  tests.TestBase -- ==============================================
+15:11:46.439 INFO  tests.TestBase -- Name of method (test)-->loginSuccess1
+15:11:51.500 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:11:51.517 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:11:51.522 INFO  manager.ListenerWD -- Location of element-->a
+15:11:51.531 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:11:51.570 INFO  manager.ListenerWD -- After click element-->a
+15:11:51.570 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:11:51.571 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:11:51.585 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:11:51.591 INFO  manager.ListenerWD -- Location of element-->input
+15:11:51.600 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:11:51.631 INFO  manager.ListenerWD -- After click element-->input
+15:11:51.650 INFO  manager.ListenerWD -- sendKeys -->
+15:11:51.653 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:51.680 INFO  manager.ListenerWD -- sendKeys -->
+15:11:51.684 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:51.702 INFO  manager.ListenerWD -- sendKeys -->
+15:11:51.705 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:51.721 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+15:11:51.737 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+15:11:51.741 INFO  manager.ListenerWD -- Location of element-->input
+15:11:51.750 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:11:51.782 INFO  manager.ListenerWD -- After click element-->input
+15:11:51.800 INFO  manager.ListenerWD -- sendKeys -->
+15:11:51.803 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:51.821 INFO  manager.ListenerWD -- sendKeys -->
+15:11:51.824 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:51.841 INFO  manager.ListenerWD -- sendKeys -->
+15:11:51.845 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:51.861 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+15:11:51.876 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+15:11:51.881 INFO  manager.ListenerWD -- Location of element-->button
+15:11:51.888 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+15:11:53.318 INFO  tests.TestBase -- ==============================================
+15:11:53.319 INFO  tests.TestBase -- Name of method (test)-->loginSuccessModel
+15:11:53.334 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+15:11:53.352 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+15:11:53.356 INFO  manager.ListenerWD -- Location of element-->button
+15:11:53.364 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+15:11:53.404 INFO  tests.TestBase -- Before method finished logout
+15:11:53.406 INFO  tests.TestBase -- Test data --> email:'lolik@gmail.com & password: Lolik123!
+15:11:53.407 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:11:53.420 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:11:53.424 INFO  manager.ListenerWD -- Location of element-->a
+15:11:53.435 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:11:53.465 INFO  manager.ListenerWD -- After click element-->a
+15:11:53.465 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:11:53.465 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:11:53.476 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:11:53.480 INFO  manager.ListenerWD -- Location of element-->input
+15:11:53.487 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:11:53.523 INFO  manager.ListenerWD -- After click element-->input
+15:11:53.542 INFO  manager.ListenerWD -- sendKeys -->
+15:11:53.545 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:53.566 INFO  manager.ListenerWD -- sendKeys -->
+15:11:53.570 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:53.590 INFO  manager.ListenerWD -- sendKeys -->
+15:11:53.594 INFO  manager.ListenerWD -- sendKeys -->input
+15:11:53.611 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+15:11:53.612 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Passworrrrrd']
+15:11:58.660 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:11:58.660 INFO  manager.ListenerWD -- Failed method:findElement
+15:11:58.660 INFO  manager.ListenerWD -- **********************
+15:11:58.661 INFO  manager.ListenerWD -- Arguments:[By.xpath: //input[@placeholder='Passworrrrrd']]
+15:11:58.661 INFO  manager.ListenerWD -- **********************
+15:11:58.661 INFO  manager.ListenerWD -- Exception:NoSuchElementException
+15:11:58.661 INFO  manager.ListenerWD -- **********************
+15:11:58.661 INFO  manager.ListenerWD -- Messageno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Passworrrrrd']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e536a26090741b215967c8e3c8c3f03, findElement {using=xpath, value=//input[@placeholder='Passworrrrrd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51121}, goog:processID: 42912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e536a26090741b215967c8e3c8c3f03
+15:11:58.661 INFO  manager.ListenerWD -- **********************
+15:11:58.662 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1420.png
+15:11:58.870 INFO  tests.TestBase -- ==============================================
+15:11:58.872 INFO  tests.TestBase -- Name of method (test)-->loginUnregisteredUser
+15:12:03.920 INFO  tests.TestBase -- Test data --> email:'loli_k@mail.ru & password: Lolik123!
+15:12:03.920 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:12:03.936 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:12:03.942 INFO  manager.ListenerWD -- Location of element-->a
+15:12:03.950 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:12:03.984 INFO  manager.ListenerWD -- After click element-->a
+15:12:03.984 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:12:03.985 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:12:03.995 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:12:03.998 INFO  manager.ListenerWD -- Location of element-->input
+15:12:04.006 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:12:04.037 INFO  manager.ListenerWD -- After click element-->input
+15:12:04.053 INFO  manager.ListenerWD -- sendKeys -->
+15:12:04.055 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:04.081 INFO  manager.ListenerWD -- sendKeys -->
+15:12:04.084 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:04.100 INFO  manager.ListenerWD -- sendKeys -->
+15:12:04.103 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:04.117 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+15:12:04.118 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Passworrrrrd']
+15:12:09.134 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:12:09.134 INFO  manager.ListenerWD -- Failed method:findElement
+15:12:09.134 INFO  manager.ListenerWD -- **********************
+15:12:09.134 INFO  manager.ListenerWD -- Arguments:[By.xpath: //input[@placeholder='Passworrrrrd']]
+15:12:09.134 INFO  manager.ListenerWD -- **********************
+15:12:09.134 INFO  manager.ListenerWD -- Exception:NoSuchElementException
+15:12:09.134 INFO  manager.ListenerWD -- **********************
+15:12:09.135 INFO  manager.ListenerWD -- Messageno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Passworrrrrd']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e536a26090741b215967c8e3c8c3f03, findElement {using=xpath, value=//input[@placeholder='Passworrrrrd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51121}, goog:processID: 42912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e536a26090741b215967c8e3c8c3f03
+15:12:09.135 INFO  manager.ListenerWD -- **********************
+15:12:09.135 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1832.png
+15:12:09.312 INFO  tests.TestBase -- ==============================================
+15:12:09.313 INFO  tests.TestBase -- Name of method (test)-->loginWrongEmail
+15:12:14.380 INFO  tests.TestBase -- Test data --> email:'lolikgmail.com & password: Lolik123!
+15:12:14.380 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:12:14.395 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:12:14.399 INFO  manager.ListenerWD -- Location of element-->a
+15:12:14.409 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:12:14.441 INFO  manager.ListenerWD -- After click element-->a
+15:12:14.441 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:12:14.441 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:12:14.451 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:12:14.455 INFO  manager.ListenerWD -- Location of element-->input
+15:12:14.461 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:12:14.488 INFO  manager.ListenerWD -- After click element-->input
+15:12:14.505 INFO  manager.ListenerWD -- sendKeys -->
+15:12:14.508 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:14.533 INFO  manager.ListenerWD -- sendKeys -->
+15:12:14.536 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:14.552 INFO  manager.ListenerWD -- sendKeys -->
+15:12:14.554 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:14.568 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+15:12:14.569 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Passworrrrrd']
+15:12:19.632 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:12:19.632 INFO  manager.ListenerWD -- Failed method:findElement
+15:12:19.632 INFO  manager.ListenerWD -- **********************
+15:12:19.632 INFO  manager.ListenerWD -- Arguments:[By.xpath: //input[@placeholder='Passworrrrrd']]
+15:12:19.632 INFO  manager.ListenerWD -- **********************
+15:12:19.633 INFO  manager.ListenerWD -- Exception:NoSuchElementException
+15:12:19.633 INFO  manager.ListenerWD -- **********************
+15:12:19.633 INFO  manager.ListenerWD -- Messageno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Passworrrrrd']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e536a26090741b215967c8e3c8c3f03, findElement {using=xpath, value=//input[@placeholder='Passworrrrrd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51121}, goog:processID: 42912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e536a26090741b215967c8e3c8c3f03
+15:12:19.633 INFO  manager.ListenerWD -- **********************
+15:12:19.634 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1189.png
+15:12:19.824 INFO  tests.TestBase -- ==============================================
+15:12:19.826 INFO  tests.TestBase -- Name of method (test)-->loginWrongPassword
+15:12:24.831 INFO  tests.TestBase -- Test data --> email:'lolik@gmail.com & password: Lolik123
+15:12:24.831 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:12:24.844 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:12:24.849 INFO  manager.ListenerWD -- Location of element-->a
+15:12:24.858 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:12:24.893 INFO  manager.ListenerWD -- After click element-->a
+15:12:24.893 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:12:24.893 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:12:24.905 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:12:24.909 INFO  manager.ListenerWD -- Location of element-->input
+15:12:24.917 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:12:24.945 INFO  manager.ListenerWD -- After click element-->input
+15:12:24.962 INFO  manager.ListenerWD -- sendKeys -->
+15:12:24.965 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:24.989 INFO  manager.ListenerWD -- sendKeys -->
+15:12:24.992 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:25.009 INFO  manager.ListenerWD -- sendKeys -->
+15:12:25.013 INFO  manager.ListenerWD -- sendKeys -->input
+15:12:25.028 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+15:12:25.028 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Passworrrrrd']
+15:12:28.307 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:12:28.307 INFO  manager.ListenerWD -- Failed method:findElement
+15:12:28.307 INFO  manager.ListenerWD -- **********************
+15:12:28.307 INFO  manager.ListenerWD -- Arguments:[By.xpath: //input[@placeholder='Passworrrrrd']]
+15:12:28.307 INFO  manager.ListenerWD -- **********************
+15:12:28.307 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+15:12:28.307 INFO  manager.ListenerWD -- **********************
+15:12:28.308 INFO  manager.ListenerWD -- Messageinvalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e536a26090741b215967c8e3c8c3f03, findElement {using=xpath, value=//input[@placeholder='Passworrrrrd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51121}, goog:processID: 42912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e536a26090741b215967c8e3c8c3f03
+15:12:28.308 INFO  manager.ListenerWD -- **********************
+15:12:28.308 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1328.png
+15:12:28.354 INFO  tests.TestBase -- ==============================================

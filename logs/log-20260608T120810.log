@@ -1,0 +1,7 @@
+12:08:10.897 INFO  manager.TestNGListener -- Start testing  on date-->Mon Jun 08 12:08:10 IDT 2026
+12:08:10.919 INFO  manager.TestNGListener -- Start test -->wrongEmailRegistration
+12:08:10.921 INFO  tests.TestBase -- Test data --> email:'mertgmail.com & password: Mert123456!
+12:08:10.924 INFO  manager.TestNGListener -- Failure test -->wrongEmailRegistration
+12:08:10.929 INFO  manager.TestNGListener -- Start test -->removeFirstContact
+12:08:10.930 INFO  manager.TestNGListener -- Failure test -->removeFirstContact
+12:08:10.931 INFO  manager.TestNGListener -- Stop testing  on date-->Mon Jun 08 12:08:10 IDT 2026

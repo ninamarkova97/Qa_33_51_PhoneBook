@@ -1,0 +1,564 @@
+17:13:45.961 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+17:13:46.167 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+17:13:46.802 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+17:13:46.811 INFO  manager.TestNGListener -- Start testing  on date-->Sun Jun 07 17:13:46 IDT 2026
+17:13:46.829 INFO  tests.TestBase -- Name of method (test)-->loginSuccess
+17:13:51.838 INFO  manager.TestNGListener -- Start test -->loginSuccess
+17:13:51.839 INFO  tests.TestBase -- Start test with name 'loginSuccess'
+17:13:51.839 INFO  tests.TestBase -- Test data ---> email: lolik@gmail.com & password: Lolik123!
+17:13:51.839 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:51.857 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:51.862 INFO  manager.ListenerWD -- Location of element-->a
+17:13:51.872 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:51.911 INFO  manager.ListenerWD -- After click element-->a
+17:13:51.912 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:51.913 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:51.939 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:51.950 INFO  manager.ListenerWD -- Location of element-->input
+17:13:51.957 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:51.992 INFO  manager.ListenerWD -- After click element-->input
+17:13:52.012 INFO  manager.ListenerWD -- sendKeys -->
+17:13:52.015 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:52.038 INFO  manager.ListenerWD -- sendKeys -->
+17:13:52.043 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:52.061 INFO  manager.ListenerWD -- sendKeys -->
+17:13:52.064 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:52.081 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+17:13:52.081 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:52.094 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:52.098 INFO  manager.ListenerWD -- Location of element-->input
+17:13:52.105 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:52.135 INFO  manager.ListenerWD -- After click element-->input
+17:13:52.149 INFO  manager.ListenerWD -- sendKeys -->
+17:13:52.151 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:52.167 INFO  manager.ListenerWD -- sendKeys -->
+17:13:52.171 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:52.186 INFO  manager.ListenerWD -- sendKeys -->
+17:13:52.188 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:52.202 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:52.214 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:52.218 INFO  manager.ListenerWD -- Location of element-->button
+17:13:52.224 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:53.211 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:53.213 INFO  manager.TestNGListener -- Success test -->loginSuccess
+17:13:53.213 INFO  tests.TestBase -- ==============================================
+17:13:53.214 INFO  tests.TestBase -- Name of method (test)-->loginSuccess
+17:13:53.223 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:53.234 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:53.239 INFO  manager.ListenerWD -- Location of element-->button
+17:13:53.245 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:53.279 INFO  tests.TestBase -- Before method finished logout
+17:13:53.280 INFO  manager.TestNGListener -- Start test -->loginSuccess
+17:13:53.280 INFO  tests.TestBase -- Start test with name 'loginSuccess'
+17:13:53.280 INFO  tests.TestBase -- Test data ---> email: sonya@gmail.com & password: Ss12345$
+17:13:53.280 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:53.290 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:53.294 INFO  manager.ListenerWD -- Location of element-->a
+17:13:53.301 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:53.327 INFO  manager.ListenerWD -- After click element-->a
+17:13:53.327 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:53.327 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:53.337 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:53.340 INFO  manager.ListenerWD -- Location of element-->input
+17:13:53.347 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:53.376 INFO  manager.ListenerWD -- After click element-->input
+17:13:53.393 INFO  manager.ListenerWD -- sendKeys -->
+17:13:53.395 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:53.413 INFO  manager.ListenerWD -- sendKeys -->
+17:13:53.415 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:53.432 INFO  manager.ListenerWD -- sendKeys -->
+17:13:53.434 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:53.449 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+17:13:53.449 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:53.456 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:53.459 INFO  manager.ListenerWD -- Location of element-->input
+17:13:53.467 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:53.498 INFO  manager.ListenerWD -- After click element-->input
+17:13:53.513 INFO  manager.ListenerWD -- sendKeys -->
+17:13:53.515 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:53.530 INFO  manager.ListenerWD -- sendKeys -->
+17:13:53.533 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:53.548 INFO  manager.ListenerWD -- sendKeys -->
+17:13:53.550 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:53.564 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:53.570 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:53.574 INFO  manager.ListenerWD -- Location of element-->button
+17:13:53.580 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:53.862 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:53.862 INFO  manager.TestNGListener -- Success test -->loginSuccess
+17:13:53.862 INFO  tests.TestBase -- ==============================================
+17:13:53.863 INFO  tests.TestBase -- Name of method (test)-->loginSuccess
+17:13:53.871 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:53.879 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:53.883 INFO  manager.ListenerWD -- Location of element-->button
+17:13:53.888 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:53.917 INFO  tests.TestBase -- Before method finished logout
+17:13:53.917 INFO  manager.TestNGListener -- Start test -->loginSuccess
+17:13:53.917 INFO  tests.TestBase -- Start test with name 'loginSuccess'
+17:13:53.917 INFO  tests.TestBase -- Test data ---> email: art276@art.com & password: $Art1$2$3456789
+17:13:53.917 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:53.925 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:53.929 INFO  manager.ListenerWD -- Location of element-->a
+17:13:53.935 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:53.959 INFO  manager.ListenerWD -- After click element-->a
+17:13:53.959 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:53.959 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:53.966 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:53.970 INFO  manager.ListenerWD -- Location of element-->input
+17:13:53.975 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:54.007 INFO  manager.ListenerWD -- After click element-->input
+17:13:54.023 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.025 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.041 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.043 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.057 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.060 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.075 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+17:13:54.075 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:54.081 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:54.084 INFO  manager.ListenerWD -- Location of element-->input
+17:13:54.090 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:54.120 INFO  manager.ListenerWD -- After click element-->input
+17:13:54.134 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.136 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.152 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.154 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.168 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.171 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.186 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:54.193 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:54.196 INFO  manager.ListenerWD -- Location of element-->button
+17:13:54.202 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:54.486 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:54.486 INFO  manager.TestNGListener -- Success test -->loginSuccess
+17:13:54.487 INFO  tests.TestBase -- ==============================================
+17:13:54.488 INFO  tests.TestBase -- Name of method (test)-->loginSuccess1
+17:13:54.496 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:54.501 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:54.505 INFO  manager.ListenerWD -- Location of element-->button
+17:13:54.510 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:54.537 INFO  tests.TestBase -- Before method finished logout
+17:13:54.537 INFO  manager.TestNGListener -- Start test -->loginSuccess1
+17:13:54.538 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:54.547 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:54.549 INFO  manager.ListenerWD -- Location of element-->a
+17:13:54.555 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:54.579 INFO  manager.ListenerWD -- After click element-->a
+17:13:54.579 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:54.579 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:54.586 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:54.589 INFO  manager.ListenerWD -- Location of element-->input
+17:13:54.594 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:54.625 INFO  manager.ListenerWD -- After click element-->input
+17:13:54.639 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.642 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.655 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.657 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.673 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.675 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.689 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:54.695 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:54.698 INFO  manager.ListenerWD -- Location of element-->input
+17:13:54.704 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:54.734 INFO  manager.ListenerWD -- After click element-->input
+17:13:54.749 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.752 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.765 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.767 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.782 INFO  manager.ListenerWD -- sendKeys -->
+17:13:54.784 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:54.798 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:54.804 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:54.807 INFO  manager.ListenerWD -- Location of element-->button
+17:13:54.813 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:55.094 INFO  manager.TestNGListener -- Success test -->loginSuccess1
+17:13:55.095 INFO  tests.TestBase -- ==============================================
+17:13:55.096 INFO  tests.TestBase -- Name of method (test)-->loginSuccessModel
+17:13:55.104 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:55.111 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:55.114 INFO  manager.ListenerWD -- Location of element-->button
+17:13:55.123 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:55.151 INFO  tests.TestBase -- Before method finished logout
+17:13:55.152 INFO  manager.TestNGListener -- Start test -->loginSuccessModel
+17:13:55.152 INFO  tests.TestBase -- Test data---> User{email='lolik@gmail.com', password='Lolik123!'}
+17:13:55.153 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:55.161 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:55.165 INFO  manager.ListenerWD -- Location of element-->a
+17:13:55.170 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:55.194 INFO  manager.ListenerWD -- After click element-->a
+17:13:55.194 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:55.194 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:55.200 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:55.203 INFO  manager.ListenerWD -- Location of element-->input
+17:13:55.208 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:55.239 INFO  manager.ListenerWD -- After click element-->input
+17:13:55.252 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.254 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.267 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.270 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.285 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.287 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.302 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:55.308 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:55.311 INFO  manager.ListenerWD -- Location of element-->input
+17:13:55.316 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:55.347 INFO  manager.ListenerWD -- After click element-->input
+17:13:55.361 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.364 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.377 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.380 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.396 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.399 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.413 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:55.422 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:55.427 INFO  manager.ListenerWD -- Location of element-->button
+17:13:55.436 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:55.721 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:55.722 INFO  manager.TestNGListener -- Success test -->loginSuccessModel
+17:13:55.722 INFO  tests.TestBase -- ==============================================
+17:13:55.723 INFO  tests.TestBase -- Name of method (test)-->loginSuccessModel
+17:13:55.731 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:55.737 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:55.740 INFO  manager.ListenerWD -- Location of element-->button
+17:13:55.745 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:55.774 INFO  tests.TestBase -- Before method finished logout
+17:13:55.774 INFO  manager.TestNGListener -- Start test -->loginSuccessModel
+17:13:55.774 INFO  tests.TestBase -- Test data---> User{email='sonya@gmail.com', password='Ss12345$'}
+17:13:55.775 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:55.782 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:55.784 INFO  manager.ListenerWD -- Location of element-->a
+17:13:55.790 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:55.814 INFO  manager.ListenerWD -- After click element-->a
+17:13:55.814 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:55.814 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:55.820 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:55.823 INFO  manager.ListenerWD -- Location of element-->input
+17:13:55.828 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:55.867 INFO  manager.ListenerWD -- After click element-->input
+17:13:55.880 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.882 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.896 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.898 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.913 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.915 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:55.928 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:55.936 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:55.939 INFO  manager.ListenerWD -- Location of element-->input
+17:13:55.944 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:55.974 INFO  manager.ListenerWD -- After click element-->input
+17:13:55.988 INFO  manager.ListenerWD -- sendKeys -->
+17:13:55.990 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.003 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.006 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.020 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.022 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.033 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:56.041 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:56.043 INFO  manager.ListenerWD -- Location of element-->button
+17:13:56.048 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:56.329 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:56.329 INFO  manager.TestNGListener -- Success test -->loginSuccessModel
+17:13:56.331 INFO  tests.TestBase -- ==============================================
+17:13:56.332 INFO  tests.TestBase -- Name of method (test)-->loginSuccessModelDPF
+17:13:56.341 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:56.347 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:56.351 INFO  manager.ListenerWD -- Location of element-->button
+17:13:56.355 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:56.383 INFO  tests.TestBase -- Before method finished logout
+17:13:56.383 INFO  manager.TestNGListener -- Start test -->loginSuccessModelDPF
+17:13:56.384 INFO  tests.TestBase -- Test data---> User{email='lolik@gmail.com', password='Lolik123!'}
+17:13:56.384 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:56.393 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:56.395 INFO  manager.ListenerWD -- Location of element-->a
+17:13:56.401 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:56.424 INFO  manager.ListenerWD -- After click element-->a
+17:13:56.424 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:56.424 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:56.431 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:56.433 INFO  manager.ListenerWD -- Location of element-->input
+17:13:56.437 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:56.466 INFO  manager.ListenerWD -- After click element-->input
+17:13:56.481 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.483 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.497 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.498 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.513 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.515 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.530 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:56.535 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:56.537 INFO  manager.ListenerWD -- Location of element-->input
+17:13:56.544 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:56.575 INFO  manager.ListenerWD -- After click element-->input
+17:13:56.588 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.590 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.604 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.606 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.623 INFO  manager.ListenerWD -- sendKeys -->
+17:13:56.624 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:56.637 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:56.643 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:56.647 INFO  manager.ListenerWD -- Location of element-->button
+17:13:56.653 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:56.937 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:56.937 INFO  manager.TestNGListener -- Success test -->loginSuccessModelDPF
+17:13:56.937 INFO  tests.TestBase -- ==============================================
+17:13:56.938 INFO  tests.TestBase -- Name of method (test)-->loginSuccessModelDPF
+17:13:56.946 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:56.952 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:56.954 INFO  manager.ListenerWD -- Location of element-->button
+17:13:56.959 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:56.985 INFO  tests.TestBase -- Before method finished logout
+17:13:56.985 INFO  manager.TestNGListener -- Start test -->loginSuccessModelDPF
+17:13:56.985 INFO  tests.TestBase -- Test data---> User{email='sonya@gmail.com', password='Ss12345$'}
+17:13:56.985 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:56.993 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:56.995 INFO  manager.ListenerWD -- Location of element-->a
+17:13:57.001 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:57.024 INFO  manager.ListenerWD -- After click element-->a
+17:13:57.024 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:57.024 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:57.029 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:57.031 INFO  manager.ListenerWD -- Location of element-->input
+17:13:57.037 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:57.066 INFO  manager.ListenerWD -- After click element-->input
+17:13:57.083 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.085 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.098 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.100 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.115 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.117 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.131 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:57.137 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:57.140 INFO  manager.ListenerWD -- Location of element-->input
+17:13:57.145 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:57.175 INFO  manager.ListenerWD -- After click element-->input
+17:13:57.190 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.191 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.206 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.208 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.222 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.224 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.236 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:57.241 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:57.244 INFO  manager.ListenerWD -- Location of element-->button
+17:13:57.249 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:57.531 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:57.531 INFO  manager.TestNGListener -- Success test -->loginSuccessModelDPF
+17:13:57.532 INFO  tests.TestBase -- ==============================================
+17:13:57.532 INFO  tests.TestBase -- Name of method (test)-->loginSuccessModelDPF
+17:13:57.540 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:57.546 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:57.549 INFO  manager.ListenerWD -- Location of element-->button
+17:13:57.554 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:57.581 INFO  tests.TestBase -- Before method finished logout
+17:13:57.581 INFO  manager.TestNGListener -- Start test -->loginSuccessModelDPF
+17:13:57.581 INFO  tests.TestBase -- Test data---> User{email='lolik@gmail.com', password='Lolik123!'}
+17:13:57.581 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:57.588 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:57.592 INFO  manager.ListenerWD -- Location of element-->a
+17:13:57.597 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:57.622 INFO  manager.ListenerWD -- After click element-->a
+17:13:57.622 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:57.622 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:57.627 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:57.629 INFO  manager.ListenerWD -- Location of element-->input
+17:13:57.635 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:57.663 INFO  manager.ListenerWD -- After click element-->input
+17:13:57.677 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.680 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.693 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.695 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.709 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.711 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.725 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:57.732 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:57.735 INFO  manager.ListenerWD -- Location of element-->input
+17:13:57.740 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:57.771 INFO  manager.ListenerWD -- After click element-->input
+17:13:57.784 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.786 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.800 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.802 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.815 INFO  manager.ListenerWD -- sendKeys -->
+17:13:57.817 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:57.830 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:57.837 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:57.840 INFO  manager.ListenerWD -- Location of element-->button
+17:13:57.847 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:58.134 INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17:13:58.134 INFO  manager.TestNGListener -- Success test -->loginSuccessModelDPF
+17:13:58.134 INFO  tests.TestBase -- ==============================================
+17:13:58.135 INFO  tests.TestBase -- Name of method (test)-->loginUnregisteredUser
+17:13:58.142 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17:13:58.148 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17:13:58.151 INFO  manager.ListenerWD -- Location of element-->button
+17:13:58.157 INFO  manager.ListenerWD -- Before click element-->buttontext -->Sign Out
+17:13:58.191 INFO  tests.TestBase -- Before method finished logout
+17:13:58.192 INFO  manager.TestNGListener -- Start test -->loginUnregisteredUser
+17:13:58.192 INFO  tests.TestBase -- Test data --> email:'loli_k@mail.ru & password: Lolik123!
+17:13:58.192 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:13:58.198 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:13:58.201 INFO  manager.ListenerWD -- Location of element-->a
+17:13:58.207 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:13:58.235 INFO  manager.ListenerWD -- After click element-->a
+17:13:58.235 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:13:58.235 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:13:58.242 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:13:58.244 INFO  manager.ListenerWD -- Location of element-->input
+17:13:58.250 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:58.283 INFO  manager.ListenerWD -- After click element-->input
+17:13:58.297 INFO  manager.ListenerWD -- sendKeys -->
+17:13:58.300 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:58.313 INFO  manager.ListenerWD -- sendKeys -->
+17:13:58.315 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:58.329 INFO  manager.ListenerWD -- sendKeys -->
+17:13:58.331 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:58.345 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+17:13:58.345 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:13:58.351 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:13:58.353 INFO  manager.ListenerWD -- Location of element-->input
+17:13:58.359 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:13:58.392 INFO  manager.ListenerWD -- After click element-->input
+17:13:58.408 INFO  manager.ListenerWD -- sendKeys -->
+17:13:58.410 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:58.426 INFO  manager.ListenerWD -- sendKeys -->
+17:13:58.429 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:58.446 INFO  manager.ListenerWD -- sendKeys -->
+17:13:58.449 INFO  manager.ListenerWD -- sendKeys -->input
+17:13:58.463 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:13:58.471 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:13:58.474 INFO  manager.ListenerWD -- Location of element-->button
+17:13:58.480 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:13:58.515 INFO  manager.ListenerWD -- Huston, we have a problem!
+17:13:58.515 INFO  manager.ListenerWD -- Failed method:alert
+17:13:58.515 INFO  manager.ListenerWD -- **********************
+17:13:58.516 INFO  manager.ListenerWD -- Arguments:null
+17:13:58.516 INFO  manager.ListenerWD -- **********************
+17:13:58.516 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+17:13:58.516 INFO  manager.ListenerWD -- **********************
+17:13:58.516 INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a49c04fe06fe6e9d43e6f101de0ed51, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58965}, goog:processID: 5580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58965/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a49c04fe06fe6e9d43e6f101de0ed51
+17:13:58.516 INFO  manager.ListenerWD -- **********************
+17:13:58.516 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1711.png
+17:13:59.032 INFO  tests.TestBase -- Assert check is alert present with error test 'Wrong email or password' 
+17:13:59.032 INFO  manager.TestNGListener -- Success test -->loginUnregisteredUser
+17:13:59.033 INFO  tests.TestBase -- ==============================================
+17:13:59.033 INFO  tests.TestBase -- Name of method (test)-->loginWrongEmail
+17:14:04.051 INFO  manager.TestNGListener -- Start test -->loginWrongEmail
+17:14:04.051 INFO  tests.TestBase -- Test data --> email:'lolikgmail.com & password: Lolik123!
+17:14:04.052 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:14:04.059 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:14:04.062 INFO  manager.ListenerWD -- Location of element-->a
+17:14:04.066 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:14:04.092 INFO  manager.ListenerWD -- After click element-->a
+17:14:04.092 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:14:04.092 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:14:04.097 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:14:04.100 INFO  manager.ListenerWD -- Location of element-->input
+17:14:04.105 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:14:04.133 INFO  manager.ListenerWD -- After click element-->input
+17:14:04.149 INFO  manager.ListenerWD -- sendKeys -->
+17:14:04.150 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:04.173 INFO  manager.ListenerWD -- sendKeys -->
+17:14:04.175 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:04.188 INFO  manager.ListenerWD -- sendKeys -->
+17:14:04.189 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:04.202 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+17:14:04.202 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:14:04.207 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:14:04.210 INFO  manager.ListenerWD -- Location of element-->input
+17:14:04.214 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:14:04.237 INFO  manager.ListenerWD -- After click element-->input
+17:14:04.254 INFO  manager.ListenerWD -- sendKeys -->
+17:14:04.256 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:04.275 INFO  manager.ListenerWD -- sendKeys -->
+17:14:04.278 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:04.291 INFO  manager.ListenerWD -- sendKeys -->
+17:14:04.293 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:04.303 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:14:04.309 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:14:04.311 INFO  manager.ListenerWD -- Location of element-->button
+17:14:04.316 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:14:04.341 INFO  manager.ListenerWD -- Huston, we have a problem!
+17:14:04.341 INFO  manager.ListenerWD -- Failed method:alert
+17:14:04.341 INFO  manager.ListenerWD -- **********************
+17:14:04.341 INFO  manager.ListenerWD -- Arguments:null
+17:14:04.341 INFO  manager.ListenerWD -- **********************
+17:14:04.341 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+17:14:04.341 INFO  manager.ListenerWD -- **********************
+17:14:04.341 INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a49c04fe06fe6e9d43e6f101de0ed51, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58965}, goog:processID: 5580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58965/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a49c04fe06fe6e9d43e6f101de0ed51
+17:14:04.341 INFO  manager.ListenerWD -- **********************
+17:14:04.341 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1634.png
+17:14:04.860 INFO  tests.TestBase -- Assert check is alert present with error test 'Wrong email or password' 
+17:14:04.861 INFO  manager.TestNGListener -- Success test -->loginWrongEmail
+17:14:04.861 INFO  tests.TestBase -- ==============================================
+17:14:04.861 INFO  tests.TestBase -- Name of method (test)-->loginWrongPassword
+17:14:09.916 INFO  manager.TestNGListener -- Start test -->loginWrongPassword
+17:14:09.916 INFO  tests.TestBase -- Test data --> email:'lolik@gmail.com & password: Lolik123
+17:14:09.916 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17:14:09.922 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17:14:09.926 INFO  manager.ListenerWD -- Location of element-->a
+17:14:09.932 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+17:14:09.957 INFO  manager.ListenerWD -- After click element-->a
+17:14:09.957 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+17:14:09.958 INFO  manager.ListenerWD -- Before find element-->By.name: email
+17:14:09.964 INFO  manager.ListenerWD -- After find element-->By.name: email
+17:14:09.967 INFO  manager.ListenerWD -- Location of element-->input
+17:14:09.973 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:14:09.997 INFO  manager.ListenerWD -- After click element-->input
+17:14:10.011 INFO  manager.ListenerWD -- sendKeys -->
+17:14:10.013 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:10.033 INFO  manager.ListenerWD -- sendKeys -->
+17:14:10.035 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:10.049 INFO  manager.ListenerWD -- sendKeys -->
+17:14:10.051 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:10.065 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+17:14:10.065 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17:14:10.072 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17:14:10.073 INFO  manager.ListenerWD -- Location of element-->input
+17:14:10.078 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+17:14:10.102 INFO  manager.ListenerWD -- After click element-->input
+17:14:10.116 INFO  manager.ListenerWD -- sendKeys -->
+17:14:10.118 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:10.139 INFO  manager.ListenerWD -- sendKeys -->
+17:14:10.141 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:10.155 INFO  manager.ListenerWD -- sendKeys -->
+17:14:10.156 INFO  manager.ListenerWD -- sendKeys -->input
+17:14:10.169 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17:14:10.177 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17:14:10.179 INFO  manager.ListenerWD -- Location of element-->button
+17:14:10.184 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+17:14:10.211 INFO  manager.ListenerWD -- Huston, we have a problem!
+17:14:10.211 INFO  manager.ListenerWD -- Failed method:alert
+17:14:10.211 INFO  manager.ListenerWD -- **********************
+17:14:10.211 INFO  manager.ListenerWD -- Arguments:null
+17:14:10.211 INFO  manager.ListenerWD -- **********************
+17:14:10.211 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+17:14:10.211 INFO  manager.ListenerWD -- **********************
+17:14:10.211 INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a49c04fe06fe6e9d43e6f101de0ed51, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58965}, goog:processID: 5580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58965/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a49c04fe06fe6e9d43e6f101de0ed51
+17:14:10.211 INFO  manager.ListenerWD -- **********************
+17:14:10.211 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1433.png
+17:14:10.726 INFO  tests.TestBase -- Assert check is alert present with error test 'Wrong email or password' 
+17:14:10.726 INFO  manager.TestNGListener -- Success test -->loginWrongPassword
+17:14:10.727 INFO  tests.TestBase -- ==============================================
+17:14:10.728 INFO  manager.TestNGListener -- Stop testing  on date-->Sun Jun 07 17:14:10 IDT 2026

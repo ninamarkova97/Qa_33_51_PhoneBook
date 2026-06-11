@@ -1,0 +1,66 @@
+19:14:38.006 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+19:14:38.211 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+19:14:38.861 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+19:14:38.881 INFO  manager.TestNGListener -- Start testing  on date-->Sun May 31 19:14:38 IDT 2026
+19:14:38.897 INFO  tests.TestBase -- Name of method (test)-->loginSuccess
+19:14:43.948 INFO  manager.TestNGListener -- Start test -->loginSuccess
+19:14:43.949 INFO  tests.TestBase -- Start test with name 'loginSuccess'
+19:14:43.949 INFO  tests.TestBase -- Yest data ---> emil:lolik@gmail.com &password:Lolik123!
+19:14:43.950 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+19:14:43.972 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+19:14:43.977 INFO  manager.ListenerWD -- Location of element-->a
+19:14:43.987 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+19:14:44.028 INFO  manager.ListenerWD -- After click element-->a
+19:14:44.028 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+19:14:44.028 INFO  manager.ListenerWD -- Before find element-->By.name: email
+19:14:44.051 INFO  manager.ListenerWD -- After find element-->By.name: email
+19:14:44.055 INFO  manager.ListenerWD -- Location of element-->input
+19:14:44.062 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+19:14:44.095 INFO  manager.ListenerWD -- After click element-->input
+19:14:44.113 INFO  manager.ListenerWD -- sendKeys -->
+19:14:44.117 INFO  manager.ListenerWD -- sendKeys -->input
+19:14:44.136 INFO  manager.ListenerWD -- sendKeys -->
+19:14:44.139 INFO  manager.ListenerWD -- sendKeys -->input
+19:14:44.154 INFO  manager.ListenerWD -- sendKeys -->
+19:14:44.156 INFO  manager.ListenerWD -- sendKeys -->input
+19:14:44.175 INFO  manager.HelperBase -- type in input with locator By.name("email") 
+19:14:44.176 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+19:14:44.188 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+19:14:44.191 INFO  manager.ListenerWD -- Location of element-->input
+19:14:44.197 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+19:14:44.227 INFO  manager.ListenerWD -- After click element-->input
+19:14:44.242 INFO  manager.ListenerWD -- sendKeys -->
+19:14:44.245 INFO  manager.ListenerWD -- sendKeys -->input
+19:14:44.261 INFO  manager.ListenerWD -- sendKeys -->
+19:14:44.264 INFO  manager.ListenerWD -- sendKeys -->input
+19:14:44.281 INFO  manager.ListenerWD -- sendKeys -->
+19:14:44.283 INFO  manager.ListenerWD -- sendKeys -->input
+19:14:44.297 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+19:14:44.308 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+19:14:44.311 INFO  manager.ListenerWD -- Location of element-->button
+19:14:44.317 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+19:14:45.472 INFO  manager.TestNGListener -- Failure test -->loginSuccess
+19:14:45.473 INFO  tests.TestBase -- ==============================================
+19:14:45.473 INFO  tests.TestBase -- Name of method (test)-->loginSuccess
+19:14:45.478 INFO  manager.ListenerWD -- Huston, we have a problem!
+19:14:45.478 INFO  manager.ListenerWD -- Failed method:findElements
+19:14:45.478 INFO  manager.ListenerWD -- **********************
+19:14:45.478 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+19:14:45.479 INFO  manager.ListenerWD -- **********************
+19:14:45.479 INFO  manager.ListenerWD -- Exception:UnhandledAlertException
+19:14:45.479 INFO  manager.ListenerWD -- **********************
+19:14:45.479 INFO  manager.ListenerWD -- Messageunexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=148.0.7778.179): Wrong email or password
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72a20fccb8cabb27f296c697e71dc86e, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57121}, goog:processID: 5544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 72a20fccb8cabb27f296c697e71dc86e
+19:14:45.479 INFO  manager.ListenerWD -- **********************
+19:14:45.480 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1259.png
+19:14:45.699 INFO  manager.TestNGListener -- Start test -->loginSuccess
+19:14:45.699 INFO  manager.TestNGListener -- Skipped test -->loginSuccess
+19:14:45.700 INFO  manager.TestNGListener -- Start test -->loginSuccess
+19:14:45.700 INFO  manager.TestNGListener -- Skipped test -->loginSuccess
+19:14:45.702 INFO  manager.TestNGListener -- Stop testing  on date-->Sun May 31 19:14:45 IDT 2026
