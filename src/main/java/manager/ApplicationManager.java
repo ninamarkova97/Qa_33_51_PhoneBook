@@ -22,7 +22,6 @@ public class ApplicationManager {
     public ApplicationManager(String browser) {
         this.browser = browser == null ? "chrome" : browser.trim().toLowerCase();
     }
-
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     public void init() {
