@@ -52,7 +52,7 @@ tasks.register('qa', Test) {
 
 tasks.register('scope', Test) {
     useTestNG() {
-        listeners.add('io.qameta.allure.testng.AllureTestNg')
+        //listeners.add('io.qameta.allure.testng.AllureTestNg')
         suites 'src/test/resources/scope.xml'
     }
     if (project.hasProperty('browser')) {
