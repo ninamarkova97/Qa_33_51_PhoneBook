@@ -1,0 +1,370 @@
+23:22:51.531 INFO  manager.ApplicationManager -- All tests runs in EDGE Browser
+23:22:52.083 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+23:22:52.961 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+23:22:53.048 INFO  tests.TestBase -- test data---> email: lolik@gmail.com & password: Lolik123!
+23:22:54.548 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.549 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.549 INFO  manager.ListenerWD -- **********************
+23:22:54.549 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.549 INFO  manager.ListenerWD -- **********************
+23:22:54.549 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.549 INFO  manager.ListenerWD -- **********************
+23:22:54.550 INFO  manager.ListenerWD -- Messageinvalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: MicrosoftEdge=149.0.4022.62)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.550 INFO  manager.ListenerWD -- **********************
+23:22:54.550 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1103.png
+23:22:54.635 INFO  tests.TestBase -- Name of method (test) -->addNewContactEmptyAddress
+23:22:54.647 INFO  tests.TestBase -- ==============================================
+23:22:54.651 INFO  tests.TestBase -- Name of method (test) -->addNewContactEmptyLastName
+23:22:54.653 INFO  tests.TestBase -- ==============================================
+23:22:54.655 INFO  tests.TestBase -- Name of method (test) -->addNewContactEmptyName
+23:22:54.658 INFO  tests.TestBase -- ==============================================
+23:22:54.666 INFO  tests.TestBase -- Name of method (test) -->addNewContactSuccessAllFields
+23:22:54.674 INFO  tests.TestBase -- ==============================================
+23:22:54.675 INFO  tests.TestBase -- Name of method (test) -->addNewContactSuccessAllFields
+23:22:54.678 INFO  tests.TestBase -- ==============================================
+23:22:54.683 INFO  tests.TestBase -- Name of method (test) -->addNewContactSuccessRequiredFields
+23:22:54.685 INFO  tests.TestBase -- ==============================================
+23:22:54.688 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongEmail
+23:22:54.692 INFO  tests.TestBase -- ==============================================
+23:22:54.693 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:22:54.696 INFO  tests.TestBase -- ==============================================
+23:22:54.697 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:22:54.700 INFO  tests.TestBase -- ==============================================
+23:22:54.701 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:22:54.703 INFO  tests.TestBase -- ==============================================
+23:22:54.705 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:22:54.708 INFO  tests.TestBase -- ==============================================
+23:22:54.709 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:22:54.712 INFO  tests.TestBase -- ==============================================
+23:22:54.714 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:22:54.720 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.720 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.720 INFO  manager.ListenerWD -- **********************
+23:22:54.720 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.720 INFO  manager.ListenerWD -- **********************
+23:22:54.720 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.722 INFO  manager.ListenerWD -- **********************
+23:22:54.722 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.722 INFO  manager.ListenerWD -- **********************
+23:22:54.722 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1377.png
+23:22:54.732 INFO  tests.TestBase -- ==============================================
+23:22:54.737 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:22:54.742 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.742 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.742 INFO  manager.ListenerWD -- **********************
+23:22:54.742 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.742 INFO  manager.ListenerWD -- **********************
+23:22:54.742 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.742 INFO  manager.ListenerWD -- **********************
+23:22:54.742 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.743 INFO  manager.ListenerWD -- **********************
+23:22:54.743 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1663.png
+23:22:54.751 INFO  tests.TestBase -- ==============================================
+23:22:54.753 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:22:54.756 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.756 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.756 INFO  manager.ListenerWD -- **********************
+23:22:54.756 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.756 INFO  manager.ListenerWD -- **********************
+23:22:54.757 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.757 INFO  manager.ListenerWD -- **********************
+23:22:54.757 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.757 INFO  manager.ListenerWD -- **********************
+23:22:54.757 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1790.png
+23:22:54.765 INFO  tests.TestBase -- ==============================================
+23:22:54.767 INFO  tests.TestBase -- Name of method (test) -->loginSuccess1
+23:22:54.771 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.771 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.771 INFO  manager.ListenerWD -- **********************
+23:22:54.771 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.771 INFO  manager.ListenerWD -- **********************
+23:22:54.771 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.771 INFO  manager.ListenerWD -- **********************
+23:22:54.771 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.771 INFO  manager.ListenerWD -- **********************
+23:22:54.771 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1075.png
+23:22:54.778 INFO  tests.TestBase -- ==============================================
+23:22:54.780 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModel
+23:22:54.784 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.785 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.785 INFO  manager.ListenerWD -- **********************
+23:22:54.785 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.785 INFO  manager.ListenerWD -- **********************
+23:22:54.785 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.785 INFO  manager.ListenerWD -- **********************
+23:22:54.785 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.785 INFO  manager.ListenerWD -- **********************
+23:22:54.785 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1671.png
+23:22:54.791 INFO  tests.TestBase -- ==============================================
+23:22:54.793 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModel
+23:22:54.796 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.796 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.796 INFO  manager.ListenerWD -- **********************
+23:22:54.796 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.796 INFO  manager.ListenerWD -- **********************
+23:22:54.796 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.796 INFO  manager.ListenerWD -- **********************
+23:22:54.796 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.796 INFO  manager.ListenerWD -- **********************
+23:22:54.796 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1261.png
+23:22:54.802 INFO  tests.TestBase -- ==============================================
+23:22:54.804 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:22:54.807 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.807 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.807 INFO  manager.ListenerWD -- **********************
+23:22:54.807 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.807 INFO  manager.ListenerWD -- **********************
+23:22:54.807 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.807 INFO  manager.ListenerWD -- **********************
+23:22:54.807 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.807 INFO  manager.ListenerWD -- **********************
+23:22:54.807 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1538.png
+23:22:54.812 INFO  tests.TestBase -- ==============================================
+23:22:54.814 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:22:54.817 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.818 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.818 INFO  manager.ListenerWD -- **********************
+23:22:54.818 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.818 INFO  manager.ListenerWD -- **********************
+23:22:54.818 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.818 INFO  manager.ListenerWD -- **********************
+23:22:54.818 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.818 INFO  manager.ListenerWD -- **********************
+23:22:54.818 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1796.png
+23:22:54.822 INFO  tests.TestBase -- ==============================================
+23:22:54.823 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:22:54.826 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.826 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.826 INFO  manager.ListenerWD -- **********************
+23:22:54.826 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.826 INFO  manager.ListenerWD -- **********************
+23:22:54.826 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.826 INFO  manager.ListenerWD -- **********************
+23:22:54.826 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.826 INFO  manager.ListenerWD -- **********************
+23:22:54.826 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1137.png
+23:22:54.831 INFO  tests.TestBase -- ==============================================
+23:22:54.832 INFO  tests.TestBase -- Name of method (test) -->loginUnregisteredUser
+23:22:54.834 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.834 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.834 INFO  manager.ListenerWD -- **********************
+23:22:54.834 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.834 INFO  manager.ListenerWD -- **********************
+23:22:54.834 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.834 INFO  manager.ListenerWD -- **********************
+23:22:54.834 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.834 INFO  manager.ListenerWD -- **********************
+23:22:54.834 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1068.png
+23:22:54.838 INFO  tests.TestBase -- ==============================================
+23:22:54.841 INFO  tests.TestBase -- Name of method (test) -->loginWrongEmail
+23:22:54.844 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.844 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.844 INFO  manager.ListenerWD -- **********************
+23:22:54.844 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.844 INFO  manager.ListenerWD -- **********************
+23:22:54.844 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.844 INFO  manager.ListenerWD -- **********************
+23:22:54.844 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.844 INFO  manager.ListenerWD -- **********************
+23:22:54.844 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1356.png
+23:22:54.849 INFO  tests.TestBase -- ==============================================
+23:22:54.850 INFO  tests.TestBase -- Name of method (test) -->loginWrongPassword
+23:22:54.854 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.854 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.854 INFO  manager.ListenerWD -- **********************
+23:22:54.854 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.854 INFO  manager.ListenerWD -- **********************
+23:22:54.854 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.854 INFO  manager.ListenerWD -- **********************
+23:22:54.854 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.854 INFO  manager.ListenerWD -- **********************
+23:22:54.854 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1879.png
+23:22:54.863 INFO  tests.TestBase -- ==============================================
+23:22:54.868 INFO  tests.TestBase -- Name of method (test) -->registrationExistsUser
+23:22:54.872 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.873 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.873 INFO  manager.ListenerWD -- **********************
+23:22:54.873 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.873 INFO  manager.ListenerWD -- **********************
+23:22:54.873 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.873 INFO  manager.ListenerWD -- **********************
+23:22:54.873 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.873 INFO  manager.ListenerWD -- **********************
+23:22:54.873 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1948.png
+23:22:54.878 INFO  tests.TestBase -- ==============================================
+23:22:54.880 INFO  tests.TestBase -- Name of method (test) -->registrationSuccess
+23:22:54.882 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.883 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.883 INFO  manager.ListenerWD -- **********************
+23:22:54.883 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.883 INFO  manager.ListenerWD -- **********************
+23:22:54.883 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.883 INFO  manager.ListenerWD -- **********************
+23:22:54.883 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.883 INFO  manager.ListenerWD -- **********************
+23:22:54.883 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1411.png
+23:22:54.887 INFO  tests.TestBase -- ==============================================
+23:22:54.888 INFO  tests.TestBase -- Name of method (test) -->wrongEmailRegistration
+23:22:54.892 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.892 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.892 INFO  manager.ListenerWD -- **********************
+23:22:54.892 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.892 INFO  manager.ListenerWD -- **********************
+23:22:54.892 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.892 INFO  manager.ListenerWD -- **********************
+23:22:54.892 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.892 INFO  manager.ListenerWD -- **********************
+23:22:54.892 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1064.png
+23:22:54.897 INFO  tests.TestBase -- ==============================================
+23:22:54.898 INFO  tests.TestBase -- Name of method (test) -->wrongPasswordRegistration
+23:22:54.901 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.901 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.901 INFO  manager.ListenerWD -- **********************
+23:22:54.901 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.901 INFO  manager.ListenerWD -- **********************
+23:22:54.901 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.901 INFO  manager.ListenerWD -- **********************
+23:22:54.901 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.901 INFO  manager.ListenerWD -- **********************
+23:22:54.901 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1792.png
+23:22:54.906 INFO  tests.TestBase -- ==============================================
+23:22:54.909 INFO  tests.TestBase -- Name of method (test) -->removeAllContacts
+23:22:54.912 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.912 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.912 INFO  manager.ListenerWD -- **********************
+23:22:54.912 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.912 INFO  manager.ListenerWD -- **********************
+23:22:54.912 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.912 INFO  manager.ListenerWD -- **********************
+23:22:54.912 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.912 INFO  manager.ListenerWD -- **********************
+23:22:54.912 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1444.png
+23:22:54.917 INFO  tests.TestBase -- ==============================================
+23:22:54.920 INFO  tests.TestBase -- Name of method (test) -->removeFirstContact
+23:22:54.925 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:22:54.925 INFO  manager.ListenerWD -- Failed method:findElements
+23:22:54.925 INFO  manager.ListenerWD -- **********************
+23:22:54.925 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:22:54.925 INFO  manager.ListenerWD -- **********************
+23:22:54.925 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:22:54.925 INFO  manager.ListenerWD -- **********************
+23:22:54.925 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c0a86975830b6d77253b3ec87d889f3, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.62, fedcm:accounts: true, goog:processID: 19208, ms:edgeOptions: {debuggerAddress: localhost:53164}, msedge: {msedgedriverVersion: 149.0.4022.62 (068a180137b0..., userDataDir: C:\Users\Nina\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 149.0.4022.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a86975830b6d77253b3ec87d889f3
+23:22:54.925 INFO  manager.ListenerWD -- **********************
+23:22:54.925 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1927.png
+23:22:54.929 INFO  tests.TestBase -- ==============================================

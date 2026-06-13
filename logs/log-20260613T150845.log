@@ -1,0 +1,122 @@
+15:08:45.961 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:08:45.966 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:08:45.966 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:08:48.872 INFO  manager.ApplicationManager -- FIREFOX Browser
+15:08:50.007 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+15:08:50.844 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+15:08:50.904 INFO  tests.TestBase -- Name of method (test) -->wrongEmailRegistration
+15:08:56.102 INFO  tests.TestBase -- Test data --> email:'mertgmail.com & password: Mert123456!
+15:08:56.103 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:08:56.147 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:08:56.158 INFO  manager.ListenerWD -- Location of element-->a
+15:08:56.173 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:08:56.263 INFO  manager.ListenerWD -- After click element-->a
+15:08:56.263 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:08:56.263 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:08:56.295 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:08:56.300 INFO  manager.ListenerWD -- Location of element-->input
+15:08:56.314 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:08:56.379 INFO  manager.ListenerWD -- After click element-->input
+15:08:56.392 INFO  manager.ListenerWD -- sendKeys -->
+15:08:56.396 INFO  manager.ListenerWD -- sendKeys -->input
+15:08:56.422 INFO  manager.ListenerWD -- sendKeys -->
+15:08:56.428 INFO  manager.ListenerWD -- sendKeys -->input
+15:08:56.447 INFO  manager.ListenerWD -- sendKeys -->
+15:08:56.454 INFO  manager.ListenerWD -- sendKeys -->input
+15:08:56.470 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+15:08:56.500 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+15:08:56.503 INFO  manager.ListenerWD -- Location of element-->input
+15:08:56.512 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:08:56.574 INFO  manager.ListenerWD -- After click element-->input
+15:08:56.584 INFO  manager.ListenerWD -- sendKeys -->
+15:08:56.589 INFO  manager.ListenerWD -- sendKeys -->input
+15:08:56.603 INFO  manager.ListenerWD -- sendKeys -->
+15:08:56.609 INFO  manager.ListenerWD -- sendKeys -->input
+15:08:56.623 INFO  manager.ListenerWD -- sendKeys -->
+15:08:56.627 INFO  manager.ListenerWD -- sendKeys -->input
+15:08:56.640 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Registration']
+15:08:56.667 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Registration']
+15:08:56.672 INFO  manager.ListenerWD -- Location of element-->button
+15:08:56.682 INFO  manager.ListenerWD -- Before click element-->buttontext -->Registration
+15:08:56.794 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:08:56.794 INFO  manager.ListenerWD -- Failed method:alert
+15:08:56.794 INFO  manager.ListenerWD -- **********************
+15:08:56.794 INFO  manager.ListenerWD -- Arguments:null
+15:08:56.794 INFO  manager.ListenerWD -- **********************
+15:08:56.795 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+15:08:56.795 INFO  manager.ListenerWD -- **********************
+15:08:56.795 INFO  manager.ListenerWD -- MessageBuild info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7c4bbd6-0649-435f-aca9-ff66e9f07c54, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30500, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e7c4bbd6-0649-435f-aca9-ff66e9f07c54
+15:08:56.795 INFO  manager.ListenerWD -- **********************
+15:08:56.796 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1756.png
+15:08:57.338 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:08:57.338 INFO  manager.ListenerWD -- Failed method:alert
+15:08:57.338 INFO  manager.ListenerWD -- **********************
+15:08:57.338 INFO  manager.ListenerWD -- Arguments:null
+15:08:57.338 INFO  manager.ListenerWD -- **********************
+15:08:57.338 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+15:08:57.338 INFO  manager.ListenerWD -- **********************
+15:08:57.339 INFO  manager.ListenerWD -- MessageBuild info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7c4bbd6-0649-435f-aca9-ff66e9f07c54, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30500, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e7c4bbd6-0649-435f-aca9-ff66e9f07c54
+15:08:57.339 INFO  manager.ListenerWD -- **********************
+15:08:57.339 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1171.png
+15:08:57.904 INFO  tests.TestBase -- Assert check is alert present with error test 'Wrong email or password' 
+15:08:57.904 INFO  manager.ListenerWD -- Before find element-->By.xpath: //*[text()='Registration failed with code 400']
+15:08:57.923 INFO  manager.ListenerWD -- After find element-->By.xpath: //*[text()='Registration failed with code 400']
+15:08:57.927 INFO  manager.ListenerWD -- Location of element-->div
+15:08:57.942 INFO  tests.TestBase -- ==============================================
+15:08:57.949 INFO  tests.TestBase -- Name of method (test) -->removeFirstContact
+15:09:02.962 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:09:03.004 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:09:03.010 INFO  manager.ListenerWD -- Location of element-->a
+15:09:03.027 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:09:03.105 INFO  manager.ListenerWD -- After click element-->a
+15:09:03.105 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:09:03.105 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:09:03.143 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:09:03.153 INFO  manager.ListenerWD -- Location of element-->input
+15:09:03.164 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:09:03.227 INFO  manager.ListenerWD -- After click element-->input
+15:09:03.240 INFO  manager.ListenerWD -- sendKeys -->
+15:09:03.243 INFO  manager.ListenerWD -- sendKeys -->input
+15:09:03.255 INFO  manager.ListenerWD -- sendKeys -->
+15:09:03.259 INFO  manager.ListenerWD -- sendKeys -->input
+15:09:03.271 INFO  manager.ListenerWD -- sendKeys -->
+15:09:03.274 INFO  manager.ListenerWD -- sendKeys -->input
+15:09:03.285 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+15:09:03.312 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+15:09:03.316 INFO  manager.ListenerWD -- Location of element-->input
+15:09:03.324 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:09:03.395 INFO  manager.ListenerWD -- After click element-->input
+15:09:03.405 INFO  manager.ListenerWD -- sendKeys -->
+15:09:03.413 INFO  manager.ListenerWD -- sendKeys -->input
+15:09:03.431 INFO  manager.ListenerWD -- sendKeys -->
+15:09:03.441 INFO  manager.ListenerWD -- sendKeys -->input
+15:09:03.455 INFO  manager.ListenerWD -- sendKeys -->
+15:09:03.463 INFO  manager.ListenerWD -- sendKeys -->input
+15:09:03.476 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+15:09:03.513 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+15:09:03.521 INFO  manager.ListenerWD -- Location of element-->button
+15:09:03.534 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+15:09:04.535 INFO  manager.HelperBase -- Number of Contacts before remove is-->3
+15:09:04.535 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-item_card__2SOIM
+15:09:04.553 INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-item_card__2SOIM
+15:09:04.557 INFO  manager.ListenerWD -- Location of element-->div
+15:09:04.567 INFO  manager.ListenerWD -- Before click element-->divtext -->Harry
+555667771594
+15:09:04.630 INFO  manager.ListenerWD -- After click element-->div
+15:09:04.630 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Remove']
+15:09:04.652 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Remove']
+15:09:04.658 INFO  manager.ListenerWD -- Location of element-->button
+15:09:04.672 INFO  manager.ListenerWD -- Before click element-->buttontext -->Remove
+15:09:04.732 INFO  manager.ListenerWD -- After click element-->button
+15:09:05.772 INFO  manager.HelperBase -- Number of Contacts after remove is-->2
+15:09:05.776 INFO  tests.TestBase -- ==============================================

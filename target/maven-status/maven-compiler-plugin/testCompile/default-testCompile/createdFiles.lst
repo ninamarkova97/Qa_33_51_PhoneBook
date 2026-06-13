@@ -1,0 +1,5 @@
+tests\RegistrationTests.class
+tests\LoginTests.class
+tests\RemoveContactsTests.class
+tests\AddNewContactTests.class
+tests\TestBase.class

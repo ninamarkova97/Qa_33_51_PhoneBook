@@ -1,0 +1,354 @@
+15:23:29.270 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:23:29.274 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:23:29.274 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:23:30.716 INFO  manager.ApplicationManager -- Chrome Browser
+15:23:31.142 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+15:23:31.950 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+15:23:31.984 INFO  tests.TestBase -- Name of method (test) -->wrongEmailRegistration
+15:23:37.130 INFO  tests.TestBase -- Test data --> email:'mertgmail.com & password: Mert123456!
+15:23:37.131 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:23:37.156 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:23:37.162 INFO  manager.ListenerWD -- Location of element-->a
+15:23:37.176 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:23:37.219 INFO  manager.ListenerWD -- After click element-->a
+15:23:37.219 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:23:37.220 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:23:37.240 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:23:37.244 INFO  manager.ListenerWD -- Location of element-->input
+15:23:37.253 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:37.290 INFO  manager.ListenerWD -- After click element-->input
+15:23:37.314 INFO  manager.ListenerWD -- sendKeys -->
+15:23:37.318 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:37.343 INFO  manager.ListenerWD -- sendKeys -->
+15:23:37.346 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:37.365 INFO  manager.ListenerWD -- sendKeys -->
+15:23:37.368 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:37.386 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+15:23:37.403 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+15:23:37.408 INFO  manager.ListenerWD -- Location of element-->input
+15:23:37.418 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:37.451 INFO  manager.ListenerWD -- After click element-->input
+15:23:37.468 INFO  manager.ListenerWD -- sendKeys -->
+15:23:37.471 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:37.489 INFO  manager.ListenerWD -- sendKeys -->
+15:23:37.494 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:37.514 INFO  manager.ListenerWD -- sendKeys -->
+15:23:37.518 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:37.536 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Registration']
+15:23:37.551 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Registration']
+15:23:37.554 INFO  manager.ListenerWD -- Location of element-->button
+15:23:37.562 INFO  manager.ListenerWD -- Before click element-->buttontext -->Registration
+15:23:37.620 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:23:37.620 INFO  manager.ListenerWD -- Failed method:alert
+15:23:37.620 INFO  manager.ListenerWD -- **********************
+15:23:37.620 INFO  manager.ListenerWD -- Arguments:null
+15:23:37.620 INFO  manager.ListenerWD -- **********************
+15:23:37.620 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+15:23:37.620 INFO  manager.ListenerWD -- **********************
+15:23:37.621 INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750426126dffabf06c5a2cc4520caf7d, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53147}, goog:processID: 6608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750426126dffabf06c5a2cc4520caf7d
+15:23:37.621 INFO  manager.ListenerWD -- **********************
+15:23:37.621 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1297.png
+15:23:38.138 INFO  manager.ListenerWD -- Huston, we have a problem!
+15:23:38.138 INFO  manager.ListenerWD -- Failed method:alert
+15:23:38.138 INFO  manager.ListenerWD -- **********************
+15:23:38.138 INFO  manager.ListenerWD -- Arguments:null
+15:23:38.138 INFO  manager.ListenerWD -- **********************
+15:23:38.138 INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+15:23:38.138 INFO  manager.ListenerWD -- **********************
+15:23:38.138 INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [750426126dffabf06c5a2cc4520caf7d, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53147}, goog:processID: 6608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 750426126dffabf06c5a2cc4520caf7d
+15:23:38.138 INFO  manager.ListenerWD -- **********************
+15:23:38.138 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1684.png
+15:23:38.684 INFO  tests.TestBase -- Assert check is alert present with error test 'Wrong email or password' 
+15:23:38.685 INFO  manager.ListenerWD -- Before find element-->By.xpath: //*[text()='Registration failed with code 400']
+15:23:38.703 INFO  manager.ListenerWD -- After find element-->By.xpath: //*[text()='Registration failed with code 400']
+15:23:38.708 INFO  manager.ListenerWD -- Location of element-->div
+15:23:38.721 INFO  tests.TestBase -- ==============================================
+15:23:38.734 INFO  tests.TestBase -- Name of method (test) -->removeFirstContact
+15:23:43.780 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15:23:43.792 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15:23:43.796 INFO  manager.ListenerWD -- Location of element-->a
+15:23:43.803 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+15:23:43.855 INFO  manager.ListenerWD -- After click element-->a
+15:23:43.855 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+15:23:43.855 INFO  manager.ListenerWD -- Before find element-->By.name: email
+15:23:43.868 INFO  manager.ListenerWD -- After find element-->By.name: email
+15:23:43.871 INFO  manager.ListenerWD -- Location of element-->input
+15:23:43.879 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:43.913 INFO  manager.ListenerWD -- After click element-->input
+15:23:43.933 INFO  manager.ListenerWD -- sendKeys -->
+15:23:43.937 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:43.966 INFO  manager.ListenerWD -- sendKeys -->
+15:23:43.970 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:43.989 INFO  manager.ListenerWD -- sendKeys -->
+15:23:43.992 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:44.009 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+15:23:44.020 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+15:23:44.025 INFO  manager.ListenerWD -- Location of element-->input
+15:23:44.033 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:44.061 INFO  manager.ListenerWD -- After click element-->input
+15:23:44.082 INFO  manager.ListenerWD -- sendKeys -->
+15:23:44.086 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:44.111 INFO  manager.ListenerWD -- sendKeys -->
+15:23:44.114 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:44.131 INFO  manager.ListenerWD -- sendKeys -->
+15:23:44.133 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:44.148 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+15:23:44.160 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+15:23:44.163 INFO  manager.ListenerWD -- Location of element-->button
+15:23:44.170 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+15:23:45.567 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+15:23:45.580 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/add']
+15:23:45.585 INFO  manager.ListenerWD -- Location of element-->a
+15:23:45.591 INFO  manager.ListenerWD -- Before click element-->atext -->ADD
+15:23:45.623 INFO  manager.ListenerWD -- After click element-->a
+15:23:45.623 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Name']
+15:23:45.636 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Name']
+15:23:45.640 INFO  manager.ListenerWD -- Location of element-->input
+15:23:45.648 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:45.678 INFO  manager.ListenerWD -- After click element-->input
+15:23:45.694 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.697 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.714 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.717 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.733 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.736 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.749 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Last Name']
+15:23:45.762 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Last Name']
+15:23:45.765 INFO  manager.ListenerWD -- Location of element-->input
+15:23:45.772 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:45.800 INFO  manager.ListenerWD -- After click element-->input
+15:23:45.815 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.817 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.835 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.836 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.854 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.856 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.869 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Phone']
+15:23:45.880 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Phone']
+15:23:45.883 INFO  manager.ListenerWD -- Location of element-->input
+15:23:45.890 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:45.917 INFO  manager.ListenerWD -- After click element-->input
+15:23:45.933 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.935 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.951 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.954 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.968 INFO  manager.ListenerWD -- sendKeys -->
+15:23:45.971 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:45.984 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='email']
+15:23:46.006 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='email']
+15:23:46.012 INFO  manager.ListenerWD -- Location of element-->input
+15:23:46.023 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:46.063 INFO  manager.ListenerWD -- After click element-->input
+15:23:46.084 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.087 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.104 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.108 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.124 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.126 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.144 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Address']
+15:23:46.156 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Address']
+15:23:46.160 INFO  manager.ListenerWD -- Location of element-->input
+15:23:46.166 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:46.199 INFO  manager.ListenerWD -- After click element-->input
+15:23:46.214 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.217 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.236 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.238 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.255 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.257 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.272 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder = 'description']
+15:23:46.285 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder = 'description']
+15:23:46.290 INFO  manager.ListenerWD -- Location of element-->input
+15:23:46.296 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:46.334 INFO  manager.ListenerWD -- After click element-->input
+15:23:46.427 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.433 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.460 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.464 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.485 INFO  manager.ListenerWD -- sendKeys -->
+15:23:46.489 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:46.503 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .add_form__2rsm2>button
+15:23:46.515 INFO  manager.ListenerWD -- After find element-->By.cssSelector: .add_form__2rsm2>button
+15:23:46.518 INFO  manager.ListenerWD -- Location of element-->button
+15:23:46.527 INFO  manager.ListenerWD -- Before click element-->buttontext -->Save
+15:23:46.558 INFO  manager.ListenerWD -- After click element-->button
+15:23:47.068 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+15:23:47.078 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/add']
+15:23:47.081 INFO  manager.ListenerWD -- Location of element-->a
+15:23:47.088 INFO  manager.ListenerWD -- Before click element-->atext -->ADD
+15:23:47.120 INFO  manager.ListenerWD -- After click element-->a
+15:23:47.121 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Name']
+15:23:47.131 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Name']
+15:23:47.134 INFO  manager.ListenerWD -- Location of element-->input
+15:23:47.141 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:47.168 INFO  manager.ListenerWD -- After click element-->input
+15:23:47.184 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.186 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.201 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.204 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.220 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.222 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.235 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Last Name']
+15:23:47.245 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Last Name']
+15:23:47.249 INFO  manager.ListenerWD -- Location of element-->input
+15:23:47.255 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:47.280 INFO  manager.ListenerWD -- After click element-->input
+15:23:47.296 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.298 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.314 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.317 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.333 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.336 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.349 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Phone']
+15:23:47.358 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Phone']
+15:23:47.362 INFO  manager.ListenerWD -- Location of element-->input
+15:23:47.369 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:47.398 INFO  manager.ListenerWD -- After click element-->input
+15:23:47.414 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.416 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.430 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.433 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.448 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.451 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.464 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='email']
+15:23:47.475 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='email']
+15:23:47.479 INFO  manager.ListenerWD -- Location of element-->input
+15:23:47.485 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:47.510 INFO  manager.ListenerWD -- After click element-->input
+15:23:47.526 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.528 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.543 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.545 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.561 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.563 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.577 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Address']
+15:23:47.588 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Address']
+15:23:47.591 INFO  manager.ListenerWD -- Location of element-->input
+15:23:47.596 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:47.622 INFO  manager.ListenerWD -- After click element-->input
+15:23:47.637 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.640 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.654 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.656 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.672 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.674 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.688 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder = 'description']
+15:23:47.696 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder = 'description']
+15:23:47.701 INFO  manager.ListenerWD -- Location of element-->input
+15:23:47.708 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:47.736 INFO  manager.ListenerWD -- After click element-->input
+15:23:47.750 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.752 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.767 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.769 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.784 INFO  manager.ListenerWD -- sendKeys -->
+15:23:47.786 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:47.799 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .add_form__2rsm2>button
+15:23:47.808 INFO  manager.ListenerWD -- After find element-->By.cssSelector: .add_form__2rsm2>button
+15:23:47.810 INFO  manager.ListenerWD -- Location of element-->button
+15:23:47.816 INFO  manager.ListenerWD -- Before click element-->buttontext -->Save
+15:23:47.839 INFO  manager.ListenerWD -- After click element-->button
+15:23:48.352 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+15:23:48.363 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/add']
+15:23:48.366 INFO  manager.ListenerWD -- Location of element-->a
+15:23:48.371 INFO  manager.ListenerWD -- Before click element-->atext -->ADD
+15:23:48.400 INFO  manager.ListenerWD -- After click element-->a
+15:23:48.400 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Name']
+15:23:48.410 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Name']
+15:23:48.415 INFO  manager.ListenerWD -- Location of element-->input
+15:23:48.422 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:48.449 INFO  manager.ListenerWD -- After click element-->input
+15:23:48.465 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.467 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.481 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.483 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.498 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.500 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.511 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Last Name']
+15:23:48.520 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Last Name']
+15:23:48.522 INFO  manager.ListenerWD -- Location of element-->input
+15:23:48.528 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:48.551 INFO  manager.ListenerWD -- After click element-->input
+15:23:48.564 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.566 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.580 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.582 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.597 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.599 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.610 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Phone']
+15:23:48.618 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Phone']
+15:23:48.621 INFO  manager.ListenerWD -- Location of element-->input
+15:23:48.626 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:48.651 INFO  manager.ListenerWD -- After click element-->input
+15:23:48.664 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.666 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.680 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.683 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.696 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.699 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.711 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='email']
+15:23:48.720 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='email']
+15:23:48.723 INFO  manager.ListenerWD -- Location of element-->input
+15:23:48.729 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:48.751 INFO  manager.ListenerWD -- After click element-->input
+15:23:48.765 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.767 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.786 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.788 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.801 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.803 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.818 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder='Address']
+15:23:48.825 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder='Address']
+15:23:48.829 INFO  manager.ListenerWD -- Location of element-->input
+15:23:48.833 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:48.856 INFO  manager.ListenerWD -- After click element-->input
+15:23:48.870 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.872 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.886 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.888 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.902 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.904 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.915 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: [placeholder = 'description']
+15:23:48.924 INFO  manager.ListenerWD -- After find element-->By.cssSelector: [placeholder = 'description']
+15:23:48.927 INFO  manager.ListenerWD -- Location of element-->input
+15:23:48.932 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+15:23:48.954 INFO  manager.ListenerWD -- After click element-->input
+15:23:48.969 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.971 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:48.984 INFO  manager.ListenerWD -- sendKeys -->
+15:23:48.986 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:49.000 INFO  manager.ListenerWD -- sendKeys -->
+15:23:49.002 INFO  manager.ListenerWD -- sendKeys -->input
+15:23:49.013 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .add_form__2rsm2>button
+15:23:49.021 INFO  manager.ListenerWD -- After find element-->By.cssSelector: .add_form__2rsm2>button
+15:23:49.025 INFO  manager.ListenerWD -- Location of element-->button
+15:23:49.032 INFO  manager.ListenerWD -- Before click element-->buttontext -->Save
+15:23:49.052 INFO  manager.ListenerWD -- After click element-->button
+15:23:50.441 INFO  manager.HelperBase -- Number of Contacts before remove is-->5
+15:23:50.441 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-item_card__2SOIM
+15:23:50.452 INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-item_card__2SOIM
+15:23:50.454 INFO  manager.ListenerWD -- Location of element-->div
+15:23:50.459 INFO  manager.ListenerWD -- Before click element-->divtext -->Harry
+555667771028
+15:23:50.487 INFO  manager.ListenerWD -- After click element-->div
+15:23:50.487 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Remove']
+15:23:50.500 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Remove']
+15:23:50.502 INFO  manager.ListenerWD -- Location of element-->button
+15:23:50.508 INFO  manager.ListenerWD -- Before click element-->buttontext -->Remove
+15:23:50.535 INFO  manager.ListenerWD -- After click element-->button
+15:23:51.570 INFO  manager.HelperBase -- Number of Contacts after remove is-->5
+15:23:51.579 INFO  tests.TestBase -- ==============================================

@@ -1,0 +1,11 @@
+manager\HelperUser.class
+models\Contact$ContactBuilder.class
+manager\ApplicationManager.class
+manager\DataProviderContact.class
+manager\DataProviderUser.class
+manager\HelperBase.class
+models\Contact.class
+models\User.class
+manager\ListenerWD.class
+manager\TestNGListener.class
+manager\HelperContact.class

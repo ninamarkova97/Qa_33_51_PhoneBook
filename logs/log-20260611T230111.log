@@ -1,0 +1,601 @@
+23:01:13.401 INFO  manager.ApplicationManager -- Default Chrome Browser
+23:01:14.209 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+23:01:14.953 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+23:01:15.019 INFO  tests.TestBase -- test data---> email: lolik@gmail.com & password: Lolik123!
+23:01:20.053 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+23:01:20.152 INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+23:01:20.167 INFO  manager.ListenerWD -- Location of element-->a
+23:01:20.187 INFO  manager.ListenerWD -- Before click element-->atext -->LOGIN
+23:01:20.234 INFO  manager.ListenerWD -- After click element-->a
+23:01:20.234 INFO  manager.HelperBase -- Open form by ckick on button with locator a[href='/login']
+23:01:20.234 INFO  manager.ListenerWD -- Before find element-->By.name: email
+23:01:20.341 INFO  manager.ListenerWD -- After find element-->By.name: email
+23:01:20.349 INFO  manager.ListenerWD -- Location of element-->input
+23:01:20.358 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+23:01:20.394 INFO  manager.ListenerWD -- After click element-->input
+23:01:20.415 INFO  manager.ListenerWD -- sendKeys -->
+23:01:20.421 INFO  manager.ListenerWD -- sendKeys -->input
+23:01:20.443 INFO  manager.ListenerWD -- sendKeys -->
+23:01:20.446 INFO  manager.ListenerWD -- sendKeys -->input
+23:01:20.463 INFO  manager.ListenerWD -- sendKeys -->
+23:01:20.465 INFO  manager.ListenerWD -- sendKeys -->input
+23:01:20.484 INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+23:01:20.513 INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+23:01:20.532 INFO  manager.ListenerWD -- Location of element-->input
+23:01:20.548 INFO  manager.ListenerWD -- Before click element-->inputtext -->
+23:01:20.607 INFO  manager.ListenerWD -- After click element-->input
+23:01:20.618 INFO  manager.ListenerWD -- sendKeys -->
+23:01:20.618 INFO  manager.ListenerWD -- sendKeys -->input
+23:01:20.672 INFO  manager.ListenerWD -- sendKeys -->
+23:01:20.682 INFO  manager.ListenerWD -- sendKeys -->input
+23:01:20.708 INFO  manager.ListenerWD -- sendKeys -->
+23:01:20.724 INFO  manager.ListenerWD -- sendKeys -->input
+23:01:20.772 INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+23:01:20.866 INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+23:01:20.866 INFO  manager.ListenerWD -- Location of element-->button
+23:01:20.900 INFO  manager.ListenerWD -- Before click element-->buttontext -->Login
+23:01:20.943 INFO  tests.TestBase -- User logged in successfully
+23:01:20.982 INFO  tests.TestBase -- Name of method (test) -->addNewContactEmptyAddress
+23:01:21.292 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: 343434342323, email: molly@gmail.com, address: , description: empty address
+23:01:21.292 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.185 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.185 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.185 INFO  manager.ListenerWD -- **********************
+23:01:22.185 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.185 INFO  manager.ListenerWD -- **********************
+23:01:22.185 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.185 INFO  manager.ListenerWD -- **********************
+23:01:22.185 INFO  manager.ListenerWD -- Messageinvalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.185 INFO  manager.ListenerWD -- **********************
+23:01:22.185 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1872.png
+23:01:22.224 INFO  tests.TestBase -- ==============================================
+23:01:22.224 INFO  tests.TestBase -- Name of method (test) -->addNewContactEmptyLastName
+23:01:22.224 INFO  tests.TestBase -- Test data --> name: Tony , lastName:, phone: 343434342323,email: molly@gmail.com, address: Haifa, description: empty last name
+23:01:22.224 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.224 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.224 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.224 INFO  manager.ListenerWD -- **********************
+23:01:22.224 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.224 INFO  manager.ListenerWD -- **********************
+23:01:22.224 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.224 INFO  manager.ListenerWD -- **********************
+23:01:22.224 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.224 INFO  manager.ListenerWD -- **********************
+23:01:22.224 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1615.png
+23:01:22.232 INFO  tests.TestBase -- ==============================================
+23:01:22.236 INFO  tests.TestBase -- Name of method (test) -->addNewContactEmptyName
+23:01:22.236 INFO  tests.TestBase -- Test data --> name: , lastName:Molly, phone: 343434342323,email: molly@gmail.com, address: Haifa, description: empty name
+23:01:22.236 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.239 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.239 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.239 INFO  manager.ListenerWD -- **********************
+23:01:22.239 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.239 INFO  manager.ListenerWD -- **********************
+23:01:22.239 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.239 INFO  manager.ListenerWD -- **********************
+23:01:22.239 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.239 INFO  manager.ListenerWD -- **********************
+23:01:22.239 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1058.png
+23:01:22.249 INFO  tests.TestBase -- ==============================================
+23:01:22.264 INFO  tests.TestBase -- Name of method (test) -->addNewContactSuccessAllFields
+23:01:22.264 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.271 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.271 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.271 INFO  manager.ListenerWD -- **********************
+23:01:22.271 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.271 INFO  manager.ListenerWD -- **********************
+23:01:22.271 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.271 INFO  manager.ListenerWD -- **********************
+23:01:22.271 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.271 INFO  manager.ListenerWD -- **********************
+23:01:22.271 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1081.png
+23:01:22.278 INFO  tests.TestBase -- ==============================================
+23:01:22.278 INFO  tests.TestBase -- Name of method (test) -->addNewContactSuccessAllFields
+23:01:22.278 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.278 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.278 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.278 INFO  manager.ListenerWD -- **********************
+23:01:22.278 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.278 INFO  manager.ListenerWD -- **********************
+23:01:22.278 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.278 INFO  manager.ListenerWD -- **********************
+23:01:22.278 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.283 INFO  manager.ListenerWD -- **********************
+23:01:22.283 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1228.png
+23:01:22.285 INFO  tests.TestBase -- ==============================================
+23:01:22.285 INFO  tests.TestBase -- Name of method (test) -->addNewContactSuccessRequiredFields
+23:01:22.285 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: 3434343482email: molly82@gmail.com, address: Haifa
+23:01:22.285 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.297 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.297 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1245.png
+23:01:22.297 INFO  tests.TestBase -- ==============================================
+23:01:22.297 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongEmail
+23:01:22.297 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: 343434342323, email: mollygmail.com, address: Haifa, description: wrong email
+23:01:22.297 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.297 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.297 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.297 INFO  manager.ListenerWD -- **********************
+23:01:22.297 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1202.png
+23:01:22.297 INFO  tests.TestBase -- ==============================================
+23:01:22.313 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:01:22.313 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com, address: Haifa, description: empty phone
+23:01:22.313 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.313 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.313 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.313 INFO  manager.ListenerWD -- **********************
+23:01:22.313 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.313 INFO  manager.ListenerWD -- **********************
+23:01:22.313 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.313 INFO  manager.ListenerWD -- **********************
+23:01:22.313 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.313 INFO  manager.ListenerWD -- **********************
+23:01:22.313 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1731.png
+23:01:22.313 INFO  tests.TestBase -- ==============================================
+23:01:22.313 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:01:22.313 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com, address: Haifa, description: empty phone
+23:01:22.325 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.325 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.325 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.325 INFO  manager.ListenerWD -- **********************
+23:01:22.325 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.325 INFO  manager.ListenerWD -- **********************
+23:01:22.325 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.325 INFO  manager.ListenerWD -- **********************
+23:01:22.325 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.325 INFO  manager.ListenerWD -- **********************
+23:01:22.325 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1924.png
+23:01:22.330 INFO  tests.TestBase -- ==============================================
+23:01:22.331 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:01:22.331 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com, address: Haifa, description: empty phone
+23:01:22.331 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.331 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.331 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.331 INFO  manager.ListenerWD -- **********************
+23:01:22.331 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.331 INFO  manager.ListenerWD -- **********************
+23:01:22.331 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.331 INFO  manager.ListenerWD -- **********************
+23:01:22.331 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.331 INFO  manager.ListenerWD -- **********************
+23:01:22.331 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1328.png
+23:01:22.340 INFO  tests.TestBase -- ==============================================
+23:01:22.340 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:01:22.341 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com, address: Haifa, description: empty phone
+23:01:22.341 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.341 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.341 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1796.png
+23:01:22.341 INFO  tests.TestBase -- ==============================================
+23:01:22.341 INFO  tests.TestBase -- Name of method (test) -->addNewContactWrongPhone
+23:01:22.341 INFO  tests.TestBase -- Test data --> name: Tony, lastName:Molly, phone: , email: molly@gmail.com, address: Haifa, description: empty phone
+23:01:22.341 INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/add']
+23:01:22.341 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.341 INFO  manager.ListenerWD -- Failed method:findElement
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Arguments:[By.cssSelector: a[href='/add']]
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElement {value=a[href='/add'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.341 INFO  manager.ListenerWD -- **********************
+23:01:22.341 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1502.png
+23:01:22.341 INFO  tests.TestBase -- ==============================================
+23:01:22.357 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:01:22.357 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.357 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.357 INFO  manager.ListenerWD -- **********************
+23:01:22.357 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.357 INFO  manager.ListenerWD -- **********************
+23:01:22.357 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.357 INFO  manager.ListenerWD -- **********************
+23:01:22.357 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.357 INFO  manager.ListenerWD -- **********************
+23:01:22.357 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1096.png
+23:01:22.362 INFO  tests.TestBase -- ==============================================
+23:01:22.362 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:01:22.362 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.362 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.362 INFO  manager.ListenerWD -- **********************
+23:01:22.362 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.362 INFO  manager.ListenerWD -- **********************
+23:01:22.362 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.362 INFO  manager.ListenerWD -- **********************
+23:01:22.362 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.362 INFO  manager.ListenerWD -- **********************
+23:01:22.362 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1638.png
+23:01:22.373 INFO  tests.TestBase -- ==============================================
+23:01:22.373 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:01:22.381 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.381 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1402.png
+23:01:22.381 INFO  tests.TestBase -- ==============================================
+23:01:22.381 INFO  tests.TestBase -- Name of method (test) -->loginSuccess1
+23:01:22.381 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.381 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.381 INFO  manager.ListenerWD -- **********************
+23:01:22.381 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1153.png
+23:01:22.395 INFO  tests.TestBase -- ==============================================
+23:01:22.396 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModel
+23:01:22.399 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.399 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.399 INFO  manager.ListenerWD -- **********************
+23:01:22.399 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.399 INFO  manager.ListenerWD -- **********************
+23:01:22.399 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.399 INFO  manager.ListenerWD -- **********************
+23:01:22.399 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.399 INFO  manager.ListenerWD -- **********************
+23:01:22.399 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1992.png
+23:01:22.409 INFO  tests.TestBase -- ==============================================
+23:01:22.411 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModel
+23:01:22.414 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.414 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.414 INFO  manager.ListenerWD -- **********************
+23:01:22.414 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.414 INFO  manager.ListenerWD -- **********************
+23:01:22.414 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.414 INFO  manager.ListenerWD -- **********************
+23:01:22.414 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.414 INFO  manager.ListenerWD -- **********************
+23:01:22.414 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1694.png
+23:01:22.416 INFO  tests.TestBase -- ==============================================
+23:01:22.416 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:01:22.427 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.427 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.427 INFO  manager.ListenerWD -- **********************
+23:01:22.427 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.427 INFO  manager.ListenerWD -- **********************
+23:01:22.427 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.427 INFO  manager.ListenerWD -- **********************
+23:01:22.427 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.427 INFO  manager.ListenerWD -- **********************
+23:01:22.427 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1436.png
+23:01:22.432 INFO  tests.TestBase -- ==============================================
+23:01:22.433 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:01:22.438 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.438 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.438 INFO  manager.ListenerWD -- **********************
+23:01:22.438 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.438 INFO  manager.ListenerWD -- **********************
+23:01:22.438 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.438 INFO  manager.ListenerWD -- **********************
+23:01:22.438 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.438 INFO  manager.ListenerWD -- **********************
+23:01:22.438 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1455.png
+23:01:22.445 INFO  tests.TestBase -- ==============================================
+23:01:22.445 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:01:22.445 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.445 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.445 INFO  manager.ListenerWD -- **********************
+23:01:22.445 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.445 INFO  manager.ListenerWD -- **********************
+23:01:22.445 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.445 INFO  manager.ListenerWD -- **********************
+23:01:22.445 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.445 INFO  manager.ListenerWD -- **********************
+23:01:22.445 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1363.png
+23:01:22.451 INFO  tests.TestBase -- ==============================================
+23:01:22.451 INFO  tests.TestBase -- Name of method (test) -->loginUnregisteredUser
+23:01:22.461 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.461 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.461 INFO  manager.ListenerWD -- **********************
+23:01:22.461 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.461 INFO  manager.ListenerWD -- **********************
+23:01:22.461 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.461 INFO  manager.ListenerWD -- **********************
+23:01:22.461 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.461 INFO  manager.ListenerWD -- **********************
+23:01:22.461 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1097.png
+23:01:22.469 INFO  tests.TestBase -- ==============================================
+23:01:22.469 INFO  tests.TestBase -- Name of method (test) -->loginWrongEmail
+23:01:22.469 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.469 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.469 INFO  manager.ListenerWD -- **********************
+23:01:22.469 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.469 INFO  manager.ListenerWD -- **********************
+23:01:22.469 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.469 INFO  manager.ListenerWD -- **********************
+23:01:22.469 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.469 INFO  manager.ListenerWD -- **********************
+23:01:22.469 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1229.png
+23:01:22.476 INFO  tests.TestBase -- ==============================================
+23:01:22.476 INFO  tests.TestBase -- Name of method (test) -->loginWrongPassword
+23:01:22.487 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.487 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.487 INFO  manager.ListenerWD -- **********************
+23:01:22.487 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.487 INFO  manager.ListenerWD -- **********************
+23:01:22.487 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.487 INFO  manager.ListenerWD -- **********************
+23:01:22.487 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.487 INFO  manager.ListenerWD -- **********************
+23:01:22.487 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1685.png
+23:01:22.495 INFO  tests.TestBase -- ==============================================
+23:01:22.496 INFO  tests.TestBase -- Name of method (test) -->registrationExistsUser
+23:01:22.500 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.500 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.500 INFO  manager.ListenerWD -- **********************
+23:01:22.500 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.500 INFO  manager.ListenerWD -- **********************
+23:01:22.500 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.500 INFO  manager.ListenerWD -- **********************
+23:01:22.500 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.500 INFO  manager.ListenerWD -- **********************
+23:01:22.500 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1091.png
+23:01:22.500 INFO  tests.TestBase -- ==============================================
+23:01:22.507 INFO  tests.TestBase -- Name of method (test) -->registrationSuccess
+23:01:22.510 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.510 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.510 INFO  manager.ListenerWD -- **********************
+23:01:22.510 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.510 INFO  manager.ListenerWD -- **********************
+23:01:22.510 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.510 INFO  manager.ListenerWD -- **********************
+23:01:22.510 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.510 INFO  manager.ListenerWD -- **********************
+23:01:22.510 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1613.png
+23:01:22.516 INFO  tests.TestBase -- ==============================================
+23:01:22.516 INFO  tests.TestBase -- Name of method (test) -->wrongEmailRegistration
+23:01:22.524 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.524 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.524 INFO  manager.ListenerWD -- **********************
+23:01:22.524 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.524 INFO  manager.ListenerWD -- **********************
+23:01:22.524 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.524 INFO  manager.ListenerWD -- **********************
+23:01:22.524 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.524 INFO  manager.ListenerWD -- **********************
+23:01:22.524 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1423.png
+23:01:22.528 INFO  tests.TestBase -- ==============================================
+23:01:22.533 INFO  tests.TestBase -- Name of method (test) -->wrongPasswordRegistration
+23:01:22.537 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.537 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.537 INFO  manager.ListenerWD -- **********************
+23:01:22.537 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.537 INFO  manager.ListenerWD -- **********************
+23:01:22.537 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.537 INFO  manager.ListenerWD -- **********************
+23:01:22.537 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.537 INFO  manager.ListenerWD -- **********************
+23:01:22.537 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1672.png
+23:01:22.540 INFO  tests.TestBase -- ==============================================
+23:01:22.540 INFO  tests.TestBase -- Name of method (test) -->removeAllContacts
+23:01:22.540 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.540 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.540 INFO  manager.ListenerWD -- **********************
+23:01:22.540 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.540 INFO  manager.ListenerWD -- **********************
+23:01:22.540 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.540 INFO  manager.ListenerWD -- **********************
+23:01:22.540 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.540 INFO  manager.ListenerWD -- **********************
+23:01:22.540 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1624.png
+23:01:22.555 INFO  tests.TestBase -- ==============================================
+23:01:22.557 INFO  tests.TestBase -- Name of method (test) -->removeFirstContact
+23:01:22.561 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:01:22.561 INFO  manager.ListenerWD -- Failed method:findElements
+23:01:22.561 INFO  manager.ListenerWD -- **********************
+23:01:22.561 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:01:22.561 INFO  manager.ListenerWD -- **********************
+23:01:22.561 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:01:22.561 INFO  manager.ListenerWD -- **********************
+23:01:22.561 INFO  manager.ListenerWD -- Messageinvalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bdf60fb3991876b1cf75a2c6e4701a6, findElements {value=//button[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\Nina\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, goog:processID: 30392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bdf60fb3991876b1cf75a2c6e4701a6
+23:01:22.561 INFO  manager.ListenerWD -- **********************
+23:01:22.561 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1499.png
+23:01:22.564 INFO  tests.TestBase -- ==============================================

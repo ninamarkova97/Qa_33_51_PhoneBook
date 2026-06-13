@@ -1,0 +1,311 @@
+23:34:21.229 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+23:34:21.229 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+23:34:21.229 WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+23:34:23.663 INFO  manager.ApplicationManager -- FIREFOX Browser
+23:34:25.280 INFO  manager.ListenerWD -- Navigate to -->https://telranedu.web.app/
+23:34:26.117 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+23:34:26.240 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:34:30.023 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.023 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.023 INFO  manager.ListenerWD -- **********************
+23:34:30.023 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.023 INFO  manager.ListenerWD -- **********************
+23:34:30.023 INFO  manager.ListenerWD -- Exception:NoSuchWindowException
+23:34:30.023 INFO  manager.ListenerWD -- **********************
+23:34:30.025 INFO  manager.ListenerWD -- MessageBrowsingContext does no longer exist
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.025 INFO  manager.ListenerWD -- **********************
+23:34:30.025 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1726.png
+23:34:30.070 INFO  tests.TestBase -- ==============================================
+23:34:30.072 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:34:30.075 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.075 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.075 INFO  manager.ListenerWD -- **********************
+23:34:30.075 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.075 INFO  manager.ListenerWD -- **********************
+23:34:30.075 INFO  manager.ListenerWD -- Exception:WebDriverException
+23:34:30.075 INFO  manager.ListenerWD -- **********************
+23:34:30.075 INFO  manager.ListenerWD -- MessageFailed to decode response from marionette
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.075 INFO  manager.ListenerWD -- **********************
+23:34:30.083 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1241.png
+23:34:30.091 INFO  tests.TestBase -- ==============================================
+23:34:30.093 INFO  tests.TestBase -- Name of method (test) -->loginSuccess
+23:34:30.095 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.095 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.095 INFO  manager.ListenerWD -- **********************
+23:34:30.095 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.095 INFO  manager.ListenerWD -- **********************
+23:34:30.095 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.095 INFO  manager.ListenerWD -- **********************
+23:34:30.095 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.095 INFO  manager.ListenerWD -- **********************
+23:34:30.095 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1952.png
+23:34:30.107 INFO  tests.TestBase -- ==============================================
+23:34:30.109 INFO  tests.TestBase -- Name of method (test) -->loginSuccess1
+23:34:30.114 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.114 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.114 INFO  manager.ListenerWD -- **********************
+23:34:30.114 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.114 INFO  manager.ListenerWD -- **********************
+23:34:30.114 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.114 INFO  manager.ListenerWD -- **********************
+23:34:30.114 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.114 INFO  manager.ListenerWD -- **********************
+23:34:30.114 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1630.png
+23:34:30.120 INFO  tests.TestBase -- ==============================================
+23:34:30.123 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModel
+23:34:30.126 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.126 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.126 INFO  manager.ListenerWD -- **********************
+23:34:30.126 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.126 INFO  manager.ListenerWD -- **********************
+23:34:30.126 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.126 INFO  manager.ListenerWD -- **********************
+23:34:30.126 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.126 INFO  manager.ListenerWD -- **********************
+23:34:30.126 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1601.png
+23:34:30.136 INFO  tests.TestBase -- ==============================================
+23:34:30.138 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModel
+23:34:30.140 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.140 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.140 INFO  manager.ListenerWD -- **********************
+23:34:30.140 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.140 INFO  manager.ListenerWD -- **********************
+23:34:30.140 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.140 INFO  manager.ListenerWD -- **********************
+23:34:30.140 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.140 INFO  manager.ListenerWD -- **********************
+23:34:30.140 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1227.png
+23:34:30.148 INFO  tests.TestBase -- ==============================================
+23:34:30.148 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:34:30.151 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.151 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1820.png
+23:34:30.151 INFO  tests.TestBase -- ==============================================
+23:34:30.151 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:34:30.151 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.151 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.151 INFO  manager.ListenerWD -- **********************
+23:34:30.151 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1655.png
+23:34:30.167 INFO  tests.TestBase -- ==============================================
+23:34:30.169 INFO  tests.TestBase -- Name of method (test) -->loginSuccessModelDPF
+23:34:30.171 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.171 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.171 INFO  manager.ListenerWD -- **********************
+23:34:30.171 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.171 INFO  manager.ListenerWD -- **********************
+23:34:30.171 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.171 INFO  manager.ListenerWD -- **********************
+23:34:30.171 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.171 INFO  manager.ListenerWD -- **********************
+23:34:30.171 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1527.png
+23:34:30.179 INFO  tests.TestBase -- ==============================================
+23:34:30.184 INFO  tests.TestBase -- Name of method (test) -->loginUnregisteredUser
+23:34:30.188 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.188 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.188 INFO  manager.ListenerWD -- **********************
+23:34:30.188 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.188 INFO  manager.ListenerWD -- **********************
+23:34:30.188 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.188 INFO  manager.ListenerWD -- **********************
+23:34:30.188 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.188 INFO  manager.ListenerWD -- **********************
+23:34:30.188 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1346.png
+23:34:30.195 INFO  tests.TestBase -- ==============================================
+23:34:30.195 INFO  tests.TestBase -- Name of method (test) -->loginWrongEmail
+23:34:30.199 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.199 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.199 INFO  manager.ListenerWD -- **********************
+23:34:30.199 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.199 INFO  manager.ListenerWD -- **********************
+23:34:30.199 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.199 INFO  manager.ListenerWD -- **********************
+23:34:30.199 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.199 INFO  manager.ListenerWD -- **********************
+23:34:30.199 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1197.png
+23:34:30.206 INFO  tests.TestBase -- ==============================================
+23:34:30.206 INFO  tests.TestBase -- Name of method (test) -->loginWrongPassword
+23:34:30.206 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.206 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.206 INFO  manager.ListenerWD -- **********************
+23:34:30.206 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.206 INFO  manager.ListenerWD -- **********************
+23:34:30.206 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.206 INFO  manager.ListenerWD -- **********************
+23:34:30.206 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.206 INFO  manager.ListenerWD -- **********************
+23:34:30.206 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1890.png
+23:34:30.215 INFO  tests.TestBase -- ==============================================
+23:34:30.220 INFO  tests.TestBase -- Name of method (test) -->registrationExistsUser
+23:34:30.223 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.223 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.223 INFO  manager.ListenerWD -- **********************
+23:34:30.223 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.223 INFO  manager.ListenerWD -- **********************
+23:34:30.223 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.223 INFO  manager.ListenerWD -- **********************
+23:34:30.223 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.223 INFO  manager.ListenerWD -- **********************
+23:34:30.223 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1392.png
+23:34:30.223 INFO  tests.TestBase -- ==============================================
+23:34:30.232 INFO  tests.TestBase -- Name of method (test) -->registrationSuccess
+23:34:30.232 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.232 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.232 INFO  manager.ListenerWD -- **********************
+23:34:30.232 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.232 INFO  manager.ListenerWD -- **********************
+23:34:30.232 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.232 INFO  manager.ListenerWD -- **********************
+23:34:30.232 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.232 INFO  manager.ListenerWD -- **********************
+23:34:30.232 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1247.png
+23:34:30.236 INFO  tests.TestBase -- ==============================================
+23:34:30.236 INFO  tests.TestBase -- Name of method (test) -->wrongEmailRegistration
+23:34:30.236 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.236 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.236 INFO  manager.ListenerWD -- **********************
+23:34:30.236 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.236 INFO  manager.ListenerWD -- **********************
+23:34:30.236 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.236 INFO  manager.ListenerWD -- **********************
+23:34:30.236 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.236 INFO  manager.ListenerWD -- **********************
+23:34:30.236 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1730.png
+23:34:30.252 INFO  tests.TestBase -- ==============================================
+23:34:30.252 INFO  tests.TestBase -- Name of method (test) -->wrongPasswordRegistration
+23:34:30.256 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.256 INFO  manager.ListenerWD -- Failed method:findElements
+23:34:30.256 INFO  manager.ListenerWD -- **********************
+23:34:30.256 INFO  manager.ListenerWD -- Arguments:[By.xpath: //button[text()='Sign Out']]
+23:34:30.256 INFO  manager.ListenerWD -- **********************
+23:34:30.256 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.256 INFO  manager.ListenerWD -- **********************
+23:34:30.256 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.256 INFO  manager.ListenerWD -- **********************
+23:34:30.256 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1425.png
+23:34:30.256 INFO  tests.TestBase -- ==============================================
+23:34:30.274 INFO  manager.ListenerWD -- Huston, we have a problem!
+23:34:30.274 INFO  manager.ListenerWD -- Failed method:quit
+23:34:30.274 INFO  manager.ListenerWD -- **********************
+23:34:30.274 INFO  manager.ListenerWD -- Arguments:null
+23:34:30.274 INFO  manager.ListenerWD -- **********************
+23:34:30.274 INFO  manager.ListenerWD -- Exception:NoSuchSessionException
+23:34:30.274 INFO  manager.ListenerWD -- **********************
+23:34:30.274 INFO  manager.ListenerWD -- MessageTried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5863dc12-1ddf-4de4-951f-416e0e04836b, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17860, moz:profile: C:\Users\Nina\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5863dc12-1ddf-4de4-951f-416e0e04836b
+23:34:30.274 INFO  manager.ListenerWD -- **********************
+23:34:30.274 INFO  manager.ListenerWD -- Screen with error is --->src/test/screenshots/screen_1055.png
+23:34:30.274 ERROR io.qameta.allure.AllureLifecycle -- Could not update test container: container with uuid 96dcfc3b-ce61-497e-842c-e7ddd1f5b75e not found
