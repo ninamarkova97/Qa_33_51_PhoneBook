@@ -1,5 +1,6 @@
 package tests;
 
+
 import manager.ApplicationManager;
 import manager.TestNGListener;
 import org.openqa.selenium.remote.Browser;
@@ -9,23 +10,34 @@ import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
 
-@Listeners(TestNGListener.class)
+//@Listeners(TestNGListener.class)
+
 
 public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
+    static ApplicationManager app =
+            new ApplicationManager(System.getProperty("browser", "chrome"));
+    //  (System.getProperty("browser", Browser.EDGE.browserName()));
 
+
+
+
+    public static ApplicationManager getApp() {
+        return app;
+    }
 
     @BeforeSuite(alwaysRun = true)
-    public void setApp() {
+    public void setUp() {
         app.init();
     }
 
     @BeforeMethod(alwaysRun = true)
     public void startLogger(Method m) {
-        logger.info("Name of method (test)-->" + m.getName());
+        //Allure.step("Start test: " + m.getName());
+        logger.info("Name of method (test) -->" + m.getName());
+
     }
 
     @AfterMethod(alwaysRun = true)
@@ -33,10 +45,10 @@ public class TestBase {
         logger.info("==============================================");
     }
 
+
     @AfterSuite(alwaysRun = true)
     public void tearDown() {
         app.stop();
     }
-
 
 }
