@@ -1,16 +1,16 @@
 package tests;
 
+import io.qameta.allure.*;
 import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
+@Epic("User Auth System")
+@Feature("User login")
+@Owner("Qa Team")
 public class LoginTests extends TestBase {
 
 
@@ -23,7 +23,9 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
+    @Test(groups = "smoke")
+    @Story("Valid user successfully logs with correct credentials")
+    @Severity(SeverityLevel.BLOCKER)
     public void loginSuccess1() {
         User user = new User().setEmail("lolik@mail.ru").withPassword("Lolik123!");
 //        user.setEmail("lolik@mail.ru");
@@ -84,7 +86,11 @@ public class LoginTests extends TestBase {
 
 
 
-    @Test
+    @Test(groups = "smoke")
+    @Story("Login fails when user enters invalid email")
+    @Severity(SeverityLevel.BLOCKER)
+    @Issue("BUG - 1235")
+
     public void loginWrongEmail() {
         logger.info("Test data --> email:'lolikgmail.com & password: Lolik123!");
         app.getHelperUser().openLoginRegistrationForm();

@@ -1,6 +1,7 @@
 package tests;
 
 
+import io.qameta.allure.Allure;
 import manager.ApplicationManager;
 import manager.TestNGListener;
 import org.openqa.selenium.remote.Browser;
@@ -21,9 +22,6 @@ public class TestBase {
             new ApplicationManager(System.getProperty("browser", "chrome"));
     //  (System.getProperty("browser", Browser.EDGE.browserName()));
 
-
-
-
     public static ApplicationManager getApp() {
         return app;
     }
@@ -35,7 +33,7 @@ public class TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void startLogger(Method m) {
-        //Allure.step("Start test: " + m.getName());
+        Allure.step("Start test: " + m.getName());
         logger.info("Name of method (test) -->" + m.getName());
 
     }
@@ -50,5 +48,6 @@ public class TestBase {
     public void tearDown() {
         app.stop();
     }
+
 
 }

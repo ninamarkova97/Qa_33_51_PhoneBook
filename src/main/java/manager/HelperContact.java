@@ -1,5 +1,6 @@
 package manager;
 
+import io.qameta.allure.Step;
 import models.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,11 +14,11 @@ public class HelperContact extends HelperBase {
     public HelperContact(WebDriver wd) {
         super(wd);
     }
-
+@Step("Open contact form")
     public void openContactForm() {
-        click(By.cssSelector("a[href='/add']"));
+        //click(By.cssSelector("a[href='/add']"));
     }
-
+    @Step("Fill contact form for {contact}")
     public void fillContactForm(Contact contact) {
         type(By.cssSelector("[placeholder='Name']"), contact.getName());
         type(By.cssSelector("[placeholder='Last Name']"), contact.getLastName());
@@ -26,11 +27,11 @@ public class HelperContact extends HelperBase {
         type(By.cssSelector("[placeholder='Address']"), contact.getAddress());
         type(By.cssSelector("[placeholder = 'description']"), contact.getDescription());
     }
-
+    @Step("Save contact ")
     public void saveContact() {
         click(By.cssSelector(".add_form__2rsm2>button"));
     }
-
+@Step("Check that contact with {name} is added ")
     public boolean isContactAddByName(String name) {
         List<WebElement> list = wd.findElements(By.cssSelector("h2"));
         for (WebElement element : list) {
@@ -40,7 +41,7 @@ public class HelperContact extends HelperBase {
         }
         return false;
     }
-
+    @Step("Check that contact with {phone} is added ")
     public boolean isContactAddByPhone(String phone) {
         List<WebElement> list = wd.findElements(By.cssSelector("h3"));
         for (WebElement element : list) {
@@ -58,7 +59,7 @@ public class HelperContact extends HelperBase {
     public boolean isAddContactPageStillDisplayed() {
         return isElementPresent(By.cssSelector("a.active[href='/add']"));
     }
-
+    @Step("Remove a single contact ")
     public int removeOneContact() {
         int before = countOfContacts();
         logger.info("Number of Contacts before remove is-->" + before);
@@ -79,7 +80,7 @@ public class HelperContact extends HelperBase {
         List<WebElement> list = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
         return list.size();
     }
-
+    @Step("Remove all contacts ")
     public void removeAllContacts() {
         while (countOfContacts() != 0) {
             removeContact();

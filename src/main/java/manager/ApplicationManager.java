@@ -82,4 +82,8 @@ public class ApplicationManager {
     public HelperContact getHelperContact() {
         return helperContact;
     }
+
+    public WebDriver getWd() {
+        return wd;
+    }
 }

@@ -1,10 +1,15 @@
 package manager;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
+import java.lang.reflect.Method;
 
 public class TestNGListener implements ITestListener {
 
@@ -27,8 +32,31 @@ public class TestNGListener implements ITestListener {
     public void onTestFailure(ITestResult result) {
         ITestListener.super.onTestFailure(result);
         logger.info("Failure test -->" + result.getName());
+        saveFailureAttachments(result);
 
     }
+
+    private void saveFailureAttachments(ITestResult result) {
+        AllureUtils.saveTextLog("Test failed: " + result.getName() + "\n" + result.getThrowable());
+        Object currentClass = result.getInstance();
+        try {
+            Method getAppMethod = currentClass.getClass().getMethod("getApp");
+            Object appObj = getAppMethod.invoke(currentClass);
+            Method getDriverMethod = appObj.getClass().getMethod("getWd");
+            Object driverObj = getDriverMethod.invoke(appObj);
+            if (driverObj instanceof WebDriver) {
+                WebDriver driver = (WebDriver) driverObj;
+                try {
+                    AllureUtils.saveScreenshot(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES));
+                } catch (Throwable t) {
+                    logger.error("Cannot capture screenshot on failure", t);
+                }
+            }
+        } catch (Exception e) {
+            logger.warn("Could not attach failure screenshot by reflection", e);
+        }
+    }
+
 
     @Override
     public void onTestSkipped(ITestResult result) {
