@@ -1,12 +1,14 @@
 package manager;
 
 import com.google.common.io.Files;
+import io.qameta.allure.Allure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -56,14 +58,22 @@ public class HelperBase {
         element.sendKeys(Keys.BACK_SPACE);
     }
 
-    public void getScreen(String link) {
-        TakesScreenshot takesScreenshot = (TakesScreenshot) wd;
-        File tmp = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        try {
-            Files.copy(tmp, new File(link));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+//    public void getScreen(String link) {
+//        TakesScreenshot takesScreenshot = (TakesScreenshot) wd;
+//        File tmp = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//        try {
+//            Files.copy(tmp, new File(link));
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+
+    public void getScreen() {
+        Allure.addAttachment(
+                "Screenshot",
+                new ByteArrayInputStream(
+                        ((TakesScreenshot) wd).getScreenshotAs(OutputType.BYTES)
+                )
+        );
 
     }
     public boolean isNoContactsHereDisplayed() {

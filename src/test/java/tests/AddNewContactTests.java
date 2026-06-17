@@ -35,7 +35,7 @@ public class AddNewContactTests extends TestBase {
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(10000);
-        app.getHelperContact().getScreen("src/test/screenshots/screen- "+i+".png");
+        app.getHelperContact().getScreen();//("src/test/screenshots/screen- "+i+".png");
         app.getHelperContact().saveContact();
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
         logger.info("Assert check is add contact by name");
@@ -50,7 +50,7 @@ public class AddNewContactTests extends TestBase {
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(10000);
-        app.getHelperContact().getScreen("build/screenshots/screen -"+i+".png");
+        app.getHelperContact().getScreen();//"build/screenshots/screen -"+i+".png");
         app.getHelperContact().saveContact();
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
         Assert.assertTrue(app.getHelperContact().isContactAddByPhone(contact.getPhone()));
